@@ -5,22 +5,28 @@ using System.ServiceProcess;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using TechResourceService;
+using Autofac;
+using TechResourceRssReader;
 
-namespace TechResourceService
-{
-    static class Program
+static class Program {
+
+    private static IContainer Container { get; set; }
+
+    static void Main()
     {
-        /// <summary>
-        /// The main entry point for the application.
-        /// </summary>
-        static void Main()
-        {
+        //dependency injection
+        var builder = new ContainerBuilder();
+        builder.RegisterType<TechResourceTracker>().As<ITechResourceTracker>();
+        builder.RegisterType<RssReader>().As<IRssReader>();
+        Container = builder.Build();
+
 #if (DEBUG)
-            //Debugging a service is unideal but it's better than installing and uninstalling a service every time
-            TechResourceTracker myServ = new TechResourceTracker
-            {
-                TimerInterval = 10000 //waiting for release timer periods is a tad tedious
-            };
+        //Debugging a service is unideal but it's better than installing and uninstalling a service every time
+        using (var scope = Container.BeginLifetimeScope())
+        {
+            ITechResourceTracker myServ = scope.Resolve<ITechResourceTracker>();
+            myServ.TimerInterval = 10000; //waiting for release timer periods is a tad tedious;
             myServ.InitiateTimer();
 
             //Force the program to run for 30 seconds so the timer can actually loop a few times.
@@ -39,3 +45,4 @@ namespace TechResourceService
         }
     }
 }
+
