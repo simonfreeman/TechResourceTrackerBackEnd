@@ -1,7 +1,8 @@
 using System;
 using NUnit.Framework;
 using TechResourceService;
-using TechResourceRssReader;
+using TechResourceService.RssReader;
+
 namespace TechResourceRssFeaderTest
 {
     [TestFixture]
@@ -15,10 +16,8 @@ namespace TechResourceRssFeaderTest
         protected void Setup()
         {
             rssUrl = "http://www.pwop.com/feed.aspx?show=dotnetrocks&filetype=master";
-            reader = new RssReader
-            {
-                RssUrl = rssUrl
-            };
+            reader = new RssReader();
+            reader.ReadFeed(rssUrl);
         }
         
         [Test]
@@ -27,12 +26,13 @@ namespace TechResourceRssFeaderTest
             Assert.AreEqual(rssUrl, reader.RssUrl);
         }
 
-        [Test]
-        public void Rss_Url_Is_Changeable()
-        {
-            var newUrl = "newRssUrl";
-            reader.RssUrl = newUrl;
-            Assert.AreEqual(reader.RssUrl, newUrl);
-        }
+      
+
+       
+        //[Test]
+        //public void Rss_Parsed_Correctly()
+        //{
+        //    reader.ReadFeed(rssUrl);
+        //}
     }
 }

@@ -6,8 +6,8 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using TechResourceService;
+using TechResourceService.RssReader;
 using Autofac;
-using TechResourceRssReader;
 
 static class Program {
 

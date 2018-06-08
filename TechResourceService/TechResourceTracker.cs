@@ -13,25 +13,26 @@ namespace TechResourceService
     partial class TechResourceTracker : ServiceBase, ITechResourceTracker
     {
         private int eventId = 1;
-        private IRssReader _reader;
+        private IRssReader Reader;
         //private RssFeedReader rssFeedReader = new RssFeedReader();
         public int TimerInterval { get; set; } = 6000;
 
         public TechResourceTracker(IRssReader reader)
         {
             CreateEventLog();
+            Reader = reader;
         }
 
-        private List<string> PodcastList
+        private List<string> FeedList
         {
             get
             {
-                var podcastUrls = new List<string>
+                var feedUrls = new List<string>
                 {
                     "http://www.pwop.com/feed.aspx?show=dotnetrocks&filetype=master"
                 };
 
-                return podcastUrls;
+                return feedUrls;
             }
         }
 
@@ -77,7 +78,10 @@ namespace TechResourceService
         public void TimerActivities()
         {
             eventLog1.WriteEntry("Tracking resources", EventLogEntryType.Information, eventId++);
-
+            
+            //foreach(string feedUrl in FeedList){
+            //    Reader.read(feedUrl);
+            //}
 
         }
     }

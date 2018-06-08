@@ -1,13 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Xml.Linq;
 
 namespace TechResourceService
 {
     public interface IRssReader
     {
-        RssFeed ParseFeed();
+        RssFeed Feed { get; }
+        RssFeed RssFeed { get; }
+        string RssUrl { get; }
+
+        void ReadFeed(string rssUrl);
     }
 }
