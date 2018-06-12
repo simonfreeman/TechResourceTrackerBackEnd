@@ -1,4 +1,5 @@
 using System;
+using System.IO;
 using NUnit.Framework;
 using TechResourceService;
 using TechResourceService.RssReader;
@@ -15,7 +16,12 @@ namespace TechResourceRssFeaderTest
         [SetUp]
         protected void Setup()
         {
-            rssUrl = "http://www.pwop.com/feed.aspx?show=dotnetrocks&filetype=master";
+            //reliable path generation?
+            string initialPath = System.Reflection.Assembly.GetExecutingAssembly().Location;
+            int indexToReplaceFrom = initialPath.IndexOf("\\bin\\");
+            initialPath = initialPath.Remove(indexToReplaceFrom);
+            rssUrl = initialPath + "\\jsparty.rss";
+
             reader = new RssReader();
             reader.ReadFeed(rssUrl);
         }

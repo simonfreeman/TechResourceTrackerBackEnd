@@ -6,42 +6,61 @@ using System.Xml;
 using TechResourceService;
 using System.Text.RegularExpressions;
 using System.Net;
+using System.IO;
 
 namespace TechResourceService.RssReader
 {
+    //maybe TODO, hand this configs or something instead of hardcoding this to podcasts.
     public class RssReader : IRssReader
     {
 
-        public RssFeed Feed { get; private set; }
+        public RssFeed Feed { get; private set; } = new RssFeed();
         public string RssUrl { get; private set; }
-        private XmlReader reader;
-
+        private XmlReaderSettings settings;
         public void ReadFeed(string rssUrl)
         {
             RssUrl = rssUrl;
             ValidateUrl();
-            SetupXmlReader();
-            reader.Read();
+            SetupXmlReaderSettings();
+            using (XmlReader reader = XmlReader.Create(RssUrl, settings))
+            {
+                reader.MoveToContent();
+
+                //can only read forwards, so switch case hell it is
+                while (reader.Read())
+                {
+                    switch (reader.Name)
+                    {
+                        case "title":
+                            Feed.Title = (String.IsNullOrWhiteSpace(Feed.Title)) ? reader.ReadElementContentAsString() : Feed.Title;
+                            break;
+                        case "description":
+                            Feed.Description = (string.IsNullOrWhiteSpace(Feed.Description)) ? reader.ReadElementContentAsString() : Feed.Description;
+                            break;
+                        case "itunes:summary":
+                            Feed.Description = (String.IsNullOrWhiteSpace(Feed.Description)) ? reader.ReadElementContentAsString() : Feed.Description;
+                            break;
+                    }
+                }
+            }
         }
 
-        private void SetupXmlReader()
+        private void SetupXmlReaderSettings()
         {
-            XmlReaderSettings settings = new XmlReaderSettings();
+            settings = new XmlReaderSettings();
             XmlUrlResolver resolver = new XmlUrlResolver();
             settings.XmlResolver = resolver;
             settings.IgnoreWhitespace = true;
             settings.IgnoreComments = true;
-
-            reader = XmlReader.Create(RssUrl,settings);
         }
 
-        public RssFeed RssFeed { get; private set; }
-        //i took this pattern from the web, and addded the \= in the end because ?parameter=value was invalidating urls. Think it works
-        Regex urlRegEx = new Regex(@"^(ht|f)tp(s?)\:\/\/[0-9a-zA-Z]([-.\w]*[0-9a-zA-Z])*(:(0-9)*)*(\/?)([a-zA-Z0-9\=\-\.\?\,\'\/\\\+&%\$#_]*)?$");
-
+        
         private void ValidateUrl()
         {
-            if (!urlRegEx.Match(RssUrl).Success)
+            Regex urlRegEx = new Regex(@"^(ht|f)tp(s?)\:\/\/[0-9a-zA-Z]([-.\w]*[0-9a-zA-Z])*(:(0-9)*)*(\/?)([a-zA-Z0-9\=\-\.\?\,\'\/\\\+&%\$#_]*)?$");
+            //honestly, it only allows local files for testing, but this is the least horrible way and theoretically maybe you want to import 
+            //all rss feeds locally before running this because of baseless justification reasons
+            if (!urlRegEx.Match(RssUrl).Success && !File.Exists(RssUrl))
             {
                 throw new FormatException("Invalid Url Supplied");
             }

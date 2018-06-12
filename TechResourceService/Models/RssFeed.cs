@@ -10,5 +10,7 @@ namespace TechResourceService
     {
         public DateTime LastUpdate;
         public List<RssFeedItem> FeedItems;
+        public string Title;
+        public string Description;
     }
 }
