@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Podly.FeedParser;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -78,10 +79,14 @@ namespace TechResourceService
         public void TimerActivities()
         {
             eventLog1.WriteEntry("Tracking resources", EventLogEntryType.Information, eventId++);
+            var factory = new HttpFeedFactory();
+            foreach (string feedUrl in FeedList)
+            {
+                var feed = factory.CreateFeed(new Uri(feedUrl));
+            }
+
             
-            //foreach(string feedUrl in FeedList){
-            //    Reader.read(feedUrl);
-            //}
+            
 
         }
     }
