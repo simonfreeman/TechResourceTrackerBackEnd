@@ -14,14 +14,11 @@ namespace TechResourceService
     partial class TechResourceTracker : ServiceBase, ITechResourceTracker
     {
         private int eventId = 1;
-        private IRssReader Reader;
-        //private RssFeedReader rssFeedReader = new RssFeedReader();
         public int TimerInterval { get; set; } = 6000;
 
-        public TechResourceTracker(IRssReader reader)
+        public TechResourceTracker()
         {
             CreateEventLog();
-            Reader = reader;
         }
 
         private List<string> FeedList
@@ -68,6 +65,7 @@ namespace TechResourceService
         public void InitiateTimer()
         {
             eventLog1.WriteEntry("Start tracking of tech resources");
+      
             var timer = new System.Timers.Timer
             {
                 Interval = TimerInterval // 60 seconds  
@@ -79,10 +77,12 @@ namespace TechResourceService
         public void TimerActivities()
         {
             eventLog1.WriteEntry("Tracking resources", EventLogEntryType.Information, eventId++);
-            var factory = new HttpFeedFactory();
+           
+
+            var feedFactory = new HttpFeedFactory();
             foreach (string feedUrl in FeedList)
             {
-                var feed = factory.CreateFeed(new Uri(feedUrl));
+                var feed = feedFactory.CreateFeed(new Uri(feedUrl));
             }
 
             

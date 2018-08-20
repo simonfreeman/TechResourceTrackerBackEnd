@@ -6,7 +6,6 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using TechResourceService;
-using TechResourceService.RssReader;
 using Autofac;
 
 static class Program {
@@ -18,7 +17,6 @@ static class Program {
         //dependency injection
         var builder = new ContainerBuilder();
         builder.RegisterType<TechResourceTracker>().As<ITechResourceTracker>();
-        builder.RegisterType<RssReader>().As<IRssReader>();
         Container = builder.Build();
 
 #if (DEBUG)
