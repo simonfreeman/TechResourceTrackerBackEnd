@@ -1,0 +1,1801 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:admin="http://webns.net/mvcb/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>JS Party</title>
+    <copyright>All rights reserved</copyright>
+    <link>http://jsparty.fm/</link>
+    <atom:link href="https://changelog.com/jsparty" rel="alternate" type="application/rss+xml" />
+    <language>en-us</language>
+    <description>A community celebration of JavaScript and the web.  This show records LIVE on Fridays at 3pm US/Eastern time. Panelists include Mikeal Rogers, Rachel White, and Alex Sexton, Nick Nisi, Suz Hinton, Michael Jackson, Safia Abdalla, Feross Aboukhadijeh, Kevin Ball, and Christopher Hiller.
+
+Topics discussed include the web platform (Chrome, Safari, Edge, Firefox, Brave, etc), front-end frameworks (React, Ember, Angular, Vue, etc), Node.js, web animation, SVG, robotics, IoT, and much more. If JavaScript and/or the web touch your life, this show’s for you.</description>
+    <itunes:subtitle>JS Party</itunes:subtitle>
+    <itunes:author>Changelog Media</itunes:author>
+    <itunes:summary>A community celebration of JavaScript and the web.  This show records LIVE on Fridays at 3pm US/Eastern time. Panelists include Mikeal Rogers, Rachel White, and Alex Sexton, Nick Nisi, Suz Hinton, Michael Jackson, Safia Abdalla, Feross Aboukhadijeh, Kevin Ball, and Christopher Hiller.
+
+Topics discussed include the web platform (Chrome, Safari, Edge, Firefox, Brave, etc), front-end frameworks (React, Ember, Angular, Vue, etc), Node.js, web animation, SVG, robotics, IoT, and much more. If JavaScript and/or the web touch your life, this show’s for you.</itunes:summary>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href="https://cdn.changelog.com/uploads/covers/js-party-original.png?v=63688781367"/>
+    <itunes:keywords>javascript, html, web, programming, frontend, backend, node, changelog, css, animation, iot, robotics</itunes:keywords>
+    <itunes:owner>
+      <itunes:name>Changelog Media</itunes:name>
+      <itunes:email>editors@changelog.com</itunes:email>
+    </itunes:owner>
+    <itunes:category text="Technology">
+      <itunes:category text="Software How-To"/>
+      <itunes:category text="Tech News"/>
+    </itunes:category>
+      <item>
+        <title>29: Node&#39;s survey, Ry&#39;s regrets, Microsoft&#39;s GitHub</title>
+        <link>https://changelog.com/jsparty/29</link>
+        <guid isPermaLink="false">changelog.com/6/534</guid>
+        <pubDate>Fri, 08 Jun 2018 17:00:00 +0000</pubDate>
+        <dc:creator>Kevin Ball, Nick Nisi, and Jerod Santo</dc:creator>
+        <description><![CDATA[<p>Big week! KBall, Nick, and JBall (nooch) dive deep in to the 2018 Node.js user survey results. What does it all mean?! They also review Ryan Dahl's &quot;10&quot; regrets about Node and sound off on Microsoft's assimilatio... err... acquisition of GitHub.</p>
+
+  <p>Sponsors</p>
+  <ul>
+    <li>
+      <a href="https://rollbar.com/changelog">Rollbar</a> – 
+<strong>We catch our errors before our users do because of Rollbar.</strong> Resolve errors in minutes, and deploy your code with confidence. Learn more at <a href="https://rollbar.com/changelog">rollbar.com/changelog</a>.
+    </li>
+    <li>
+      <a href="https://www.fastly.com/?utm_source=changelog&amp;utm_medium=podcast&amp;utm_campaign=changelog-sponsorship">Fastly</a> – 
+<strong>Our bandwidth partner.</strong> Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at <a href="https://www.fastly.com/?utm_source=changelog&amp;utm_medium=podcast&amp;utm_campaign=changelog-sponsorship">fastly.com</a>.
+    </li>
+    <li>
+      <a href="https://linode.com/changelog">Linode</a> – 
+<strong>Our cloud server of choice.</strong> Deploy a fast, efficient, native SSD cloud server for only $5/month. Get 4 months free using the code <code>changelog2018</code>. Start your server - head to <a href="https://linode.com/changelog">linode.com/changelog</a>
+    </li>
+  </ul>
+
+  <p>Featuring</p>
+  <ul>
+    <li>Kevin Ball &ndash; <a href="https://twitter.com/kbal11">Twitter</a>, <a href="https://github.com/kball">GitHub</a>, <a href="https://zendev.com/">Website</a></li>
+    <li>Nick Nisi &ndash; <a href="https://twitter.com/nicknisi">Twitter</a>, <a href="https://github.com/nicknisi">GitHub</a>, <a href="https://nicknisi.com">Website</a></li>
+    <li>Jerod Santo &ndash; <a href="https://twitter.com/jerodsanto">Twitter</a>, <a href="https://github.com/jerodsanto">GitHub</a>, <a href="http://jerodsanto.net">Website</a></li>
+  </ul>
+<p>Notes and Links</p>
+<ul>
+<li><a href="https://nodejs.org/en/user-survey-report/">2018 Node.js User Survey Report (web)</a></li>
+<li><a href="https://nodejs.org/en/user-survey-report/2018-nodejs-user-survey-report.pdf">2018 Node.js User Survey Report (pdf)</a></li>
+<li><a href="https://medium.com/@nodejs/third-annual-node-js-user-survey-data-now-available-6cb18d48c532">Third Annual Node.js User Survey Data Now Available</a></li>
+<li><a href="https://www.infoq.com/news/2018/05/node-user-survey-rapid-growth">2018 Node.js User Survey Report Shows Continued Rapid Growth</a></li>
+<li><a href="https://nodesource.com/node-by-numbers">Node by Numbers 2017 — NodeSource</a></li>
+<li><a href="https://www.youtube.com/watch?v=M3BM9TB-8yA">10 Things I Regret About Node.js - Ryan Dahl - JSConf EU 2018</a></li>
+<li><a href="https://github.com/ry/deno">ry/deno: A secure TypeScript runtime on V8</a></li>
+<li><a href="https://changelog.com/spotlight/14">Spotlight #14: Our reactions to Microsoft buying GitHub</a></li>
+</ul>
+]]></description>
+
+        <enclosure url="https://cdn.changelog.com/uploads/jsparty/29/js-party-29.mp3" length="46715758" type="audio/mpeg" />
+        <itunes:author>Kevin Ball, Nick Nisi, and Jerod Santo</itunes:author>
+        <itunes:image href="https://cdn.changelog.com/uploads/covers/js-party-original.png?v=63688781367"/>
+        <itunes:duration>1:04:26</itunes:duration>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:keywords>javascript, html, web, programming, frontend, backend, node, changelog, css, animation, iot, robotics</itunes:keywords>
+        <itunes:subtitle>Node&#39;s survey, Ry&#39;s regrets, Microsoft&#39;s GitHub</itunes:subtitle>
+        <itunes:summary>Big week! KBall, Nick, and JBall (nooch) dive deep in to the 2018 Node.js user survey results. What does it all mean?! They also review Ryan Dahl's "10" regrets about Node and sound off on Microsoft's assimilatio... err... acquisition of GitHub. </itunes:summary>
+      </item>
+      <item>
+        <title>28: ML in JS... well... yes?</title>
+        <link>https://changelog.com/jsparty/28</link>
+        <guid isPermaLink="false">changelog.com/6/527</guid>
+        <pubDate>Fri, 01 Jun 2018 17:34:16 +0000</pubDate>
+        <dc:creator>Suz Hinton, Jerod Santo, Kevin Ball, and Christopher Hiller</dc:creator>
+        <description><![CDATA[<p>Suz Hinton, Jerod Santo, Kevin Ball, and Christopher Hiller talk about machine learning, the ethics surrounding it, why you would use JavaScript with it, and much more.</p>
+
+  <p>Sponsors</p>
+  <ul>
+    <li>
+      <a href="https://rollbar.com/changelog">Rollbar</a> – 
+<strong>We catch our errors before our users do because of Rollbar.</strong> Resolve errors in minutes, and deploy your code with confidence. Learn more at <a href="https://rollbar.com/changelog">rollbar.com/changelog</a>.
+    </li>
+    <li>
+      <a href="https://linode.com/changelog">Linode</a> – 
+<strong>Our cloud server of choice.</strong> Deploy a fast, efficient, native SSD cloud server for only $5/month. Get 4 months free using the code <code>changelog2018</code>. Start your server - head to <a href="https://linode.com/changelog">linode.com/changelog</a>
+    </li>
+    <li>
+      <a href="https://www.fastly.com/?utm_source=changelog&amp;utm_medium=podcast&amp;utm_campaign=changelog-sponsorship">Fastly</a> – 
+<strong>Our bandwidth partner.</strong> Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at <a href="https://www.fastly.com/?utm_source=changelog&amp;utm_medium=podcast&amp;utm_campaign=changelog-sponsorship">fastly.com</a>.
+    </li>
+  </ul>
+
+  <p>Featuring</p>
+  <ul>
+    <li>Suz Hinton &ndash; <a href="https://twitter.com/noopkat">Twitter</a>, <a href="https://github.com/noopkat">GitHub</a>, <a href="http://noopkat.com/">Website</a></li>
+    <li>Jerod Santo &ndash; <a href="https://twitter.com/jerodsanto">Twitter</a>, <a href="https://github.com/jerodsanto">GitHub</a>, <a href="http://jerodsanto.net">Website</a></li>
+    <li>Kevin Ball &ndash; <a href="https://twitter.com/kbal11">Twitter</a>, <a href="https://github.com/kball">GitHub</a>, <a href="https://zendev.com/">Website</a></li>
+    <li>Christopher Hiller &ndash; <a href="https://twitter.com/b0neskull">Twitter</a>, <a href="https://github.com/boneskull">GitHub</a>, <a href="https://boneskull.com">Website</a></li>
+  </ul>
+<p>Notes and Links</p>
+<ul>
+<li><a href="http://ml4all.org/">ML4ALL - A machine learning conference for the rest of us.</a></li>
+<li><a href="https://www.youtube.com/watch?v=6nF4pdl1U-g">Machine Learning, Art and JavaScript - Amy Cheng - ML4ALL 2018 - YouTube</a></li>
+<li><a href="https://deepdreamgenerator.com/">Deep Dream Generator</a></li>
+<li><a href="https://ddg-mjesip8vchewh1dsl.stackpathdns.com/assets/landing/img/gallery/8.jpg">Humming Bird on Fire</a></li>
+<li><a href="https://meowni.ca/posts/hello-tensorflow/">Hello tensorflow – Monica Dinculescu</a></li>
+<li><a href="https://medium.com/doteveryone/oaths-pledges-and-manifestos-a-master-list-of-ethical-tech-values-26e2672e161c">Oaths, pledges and manifestos: a master list of ethical tech values</a></li>
+<li><a href="https://changelog.com/practicalai">Practical AI with Chris Benson and Daniel Whitenack</a></li>
+<li><a href="https://www.youtube.com/watch?v=o1vj7vvGiZ4&amp;t=0s&amp;list=PLOnHsSCrR68wyOxmnT1R-KxXHNntun2QM&amp;index=4">Jump or Not to Jump: Solving Flappy Bird with Deep Reinforcement Learning - Kaleo Ha'o - ML4ALL 2018</a></li>
+</ul>
+]]></description>
+
+        <enclosure url="https://cdn.changelog.com/uploads/jsparty/28/js-party-28.mp3" length="39020630" type="audio/mpeg" />
+        <itunes:author>Suz Hinton, Jerod Santo, Kevin Ball, and Christopher Hiller</itunes:author>
+        <itunes:image href="https://cdn.changelog.com/uploads/covers/js-party-original.png?v=63688781367"/>
+        <itunes:duration>53:44</itunes:duration>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:keywords>javascript, html, web, programming, frontend, backend, node, changelog, css, animation, iot, robotics</itunes:keywords>
+        <itunes:subtitle>ML in JS... well... yes?</itunes:subtitle>
+        <itunes:summary>Suz Hinton, Jerod Santo, Kevin Ball, and Christopher Hiller talk about machine learning, the ethics surrounding it, why you would use JavaScript with it, and much more. </itunes:summary>
+      </item>
+      <item>
+        <title>27: A tooling extravaganza!</title>
+        <link>https://changelog.com/jsparty/27</link>
+        <guid isPermaLink="false">changelog.com/6/526</guid>
+        <pubDate>Fri, 25 May 2018 17:56:33 +0000</pubDate>
+        <dc:creator>Kevin Ball, Alex Sexton, Nick Nisi, and Christopher Hiller</dc:creator>
+        <description><![CDATA[<p>Kevin Ball, Alex Sexton, Nick Nisi, and Christopher Hiller talk all things tooling. Build tooling, linting, formatting, IDEs, and a small tangent on Vim.</p>
+
+  <p>Sponsors</p>
+  <ul>
+    <li>
+      <a href="https://rollbar.com/changelog">Rollbar</a> – 
+<strong>We catch our errors before our users do because of Rollbar.</strong> Resolve errors in minutes, and deploy your code with confidence. Learn more at <a href="https://rollbar.com/changelog">rollbar.com/changelog</a>.
+    </li>
+    <li>
+      <a href="https://www.fastly.com/?utm_source=changelog&amp;utm_medium=podcast&amp;utm_campaign=changelog-sponsorship">Fastly</a> – 
+<strong>Our bandwidth partner.</strong> Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at <a href="https://www.fastly.com/?utm_source=changelog&amp;utm_medium=podcast&amp;utm_campaign=changelog-sponsorship">fastly.com</a>.
+    </li>
+    <li>
+      <a href="https://linode.com/changelog">Linode</a> – 
+<strong>Our cloud server of choice.</strong> Deploy a fast, efficient, native SSD cloud server for only $5/month. Get 4 months free using the code <code>changelog2018</code>. Start your server - head to <a href="https://linode.com/changelog">linode.com/changelog</a>
+    </li>
+  </ul>
+
+  <p>Featuring</p>
+  <ul>
+    <li>Kevin Ball &ndash; <a href="https://twitter.com/kbal11">Twitter</a>, <a href="https://github.com/kball">GitHub</a>, <a href="https://zendev.com/">Website</a></li>
+    <li>Alex Sexton &ndash; <a href="https://twitter.com/SlexAxton">Twitter</a>, <a href="https://github.com/SlexAxton">GitHub</a>, <a href="https://alexsexton.com">Website</a></li>
+    <li>Nick Nisi &ndash; <a href="https://twitter.com/nicknisi">Twitter</a>, <a href="https://github.com/nicknisi">GitHub</a>, <a href="https://nicknisi.com">Website</a></li>
+    <li>Christopher Hiller &ndash; <a href="https://twitter.com/b0neskull">Twitter</a>, <a href="https://github.com/boneskull">GitHub</a>, <a href="https://boneskull.com">Website</a></li>
+  </ul>
+<p>Notes and Links</p>
+<ul>
+<li><a href="https://babeljs.io/">Babel · The compiler for writing next generation JavaScript</a></li>
+<li><a href="https://webpack.js.org/">webpack</a></li>
+<li><a href="https://gulpjs.com/">gulp.js</a></li>
+<li><a href="https://gruntjs.com/">Grunt: The JavaScript Task Runner</a></li>
+<li><a href="http://broccolijs.com/">Broccoli.js - The asset pipeline for ambitious applications</a></li>
+<li><a href="https://eslint.org/">ESLint - Pluggable JavaScript linter</a></li>
+<li><a href="https://atom.io/">Atom</a></li>
+<li><a href="https://code.visualstudio.com/">Visual Studio Code - Code Editing. Redefined</a></li>
+<li><a href="https://neovim.io/">Home - Neovim</a></li>
+</ul>
+]]></description>
+
+        <enclosure url="https://cdn.changelog.com/uploads/jsparty/27/js-party-27.mp3" length="42066745" type="audio/mpeg" />
+        <itunes:author>Kevin Ball, Alex Sexton, Nick Nisi, and Christopher Hiller</itunes:author>
+        <itunes:image href="https://cdn.changelog.com/uploads/covers/js-party-original.png?v=63688781367"/>
+        <itunes:duration>57:58</itunes:duration>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:keywords>javascript, html, web, programming, frontend, backend, node, changelog, css, animation, iot, robotics</itunes:keywords>
+        <itunes:subtitle>A tooling extravaganza!</itunes:subtitle>
+        <itunes:summary>Kevin Ball, Alex Sexton, Nick Nisi, and Christopher Hiller talk all things tooling. Build tooling, linting, formatting, IDEs, and a small tangent on Vim. </itunes:summary>
+      </item>
+      <item>
+        <title>26: 🎊 TS Party! 🎊</title>
+        <link>https://changelog.com/jsparty/26</link>
+        <guid isPermaLink="false">changelog.com/6/525</guid>
+        <pubDate>Fri, 18 May 2018 11:00:00 +0000</pubDate>
+        <dc:creator>Jerod Santo, Nick Nisi, and Christopher Hiller</dc:creator>
+        <description><![CDATA[<p>Jerod Santo, Nick Nisi, and Christopher Hiller talk about what TypeScript is and why we should care, who's using TypeScript, and thoughts on developer titles.</p>
+
+  <p>Sponsors</p>
+  <ul>
+    <li>
+      <a href="https://rollbar.com/changelog">Rollbar</a> – 
+<strong>We catch our errors before our users do because of Rollbar.</strong> Resolve errors in minutes, and deploy your code with confidence. Learn more at <a href="https://rollbar.com/changelog">rollbar.com/changelog</a>.
+    </li>
+    <li>
+      <a href="https://oreil.ly/2J3gCBP">O&#39;Reilly Velocity Conference</a> – 
+Performance. Resilience. Security. Build and run the systems that power modern businesses. Use the discount code <code>JSPARTY</code> to get 20% off Gold, Silver, and Bronze passes. Location and dates: San Jose, California, June 11-14. Learn more - <a href="https://oreil.ly/2J3gCBP">oreil.ly/2J3gCBP</a>
+    </li>
+    <li>
+      <a href="https://www.fastly.com/?utm_source=changelog&amp;utm_medium=podcast&amp;utm_campaign=changelog-sponsorship">Fastly</a> – 
+<strong>Our bandwidth partner.</strong> Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at <a href="https://www.fastly.com/?utm_source=changelog&amp;utm_medium=podcast&amp;utm_campaign=changelog-sponsorship">fastly.com</a>.
+    </li>
+    <li>
+      <a href="https://linode.com/changelog">Linode</a> – 
+<strong>Our cloud server of choice.</strong> Deploy a fast, efficient, native SSD cloud server for only $5/month. Get 4 months free using the code <code>changelog2018</code>. Start your server - head to <a href="https://linode.com/changelog">linode.com/changelog</a>
+    </li>
+  </ul>
+
+  <p>Featuring</p>
+  <ul>
+    <li>Jerod Santo &ndash; <a href="https://twitter.com/jerodsanto">Twitter</a>, <a href="https://github.com/jerodsanto">GitHub</a>, <a href="http://jerodsanto.net">Website</a></li>
+    <li>Nick Nisi &ndash; <a href="https://twitter.com/nicknisi">Twitter</a>, <a href="https://github.com/nicknisi">GitHub</a>, <a href="https://nicknisi.com">Website</a></li>
+    <li>Christopher Hiller &ndash; <a href="https://twitter.com/b0neskull">Twitter</a>, <a href="https://github.com/boneskull">GitHub</a>, <a href="https://boneskull.com">Website</a></li>
+  </ul>
+<p>Notes and Links</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Embrace,_extend,_and_extinguish">Embrace, extend, and extinguish - Wikipedia</a></li>
+<li><a href="https://changelog.com/podcast/152">The Changelog #152: TypeScript and Open Source at Microsoft with Anders Hejlsberg and Jonathan Turner</a></li>
+<li><a href="https://en.wikipedia.org/wiki/AtScript">AtScript - Wikipedia</a></li>
+<li><a href="https://twitter.com/thespite/status/996792017693958144">Jaume Sanchez Elias on Twitter: &quot;JavaScript is like the parent that lets you do all kind of goofy mildly dangerous things like tumbling in bouncy castles, and even joins in the fun TypeScript is like the parent that gives you a stern look and says that they're not angry, just disappointed&quot;</a></li>
+<li><a href="https://twitter.com/jerodsanto/status/996948889440792577">Jerod Santo on Twitter: &quot;Please stop trying to distinguish between these terms (developer, programmer, engineer, etc.). It’s arbitrary, divisive, and not at all useful…&quot;</a></li>
+<li><a href="https://twitter.com/trek/status/996770053113688065">Trek Glowacki on Twitter: &quot;Since our industry seems hell bent on giving people &quot;Senior&quot; titles who are in the first decade of their career, I'd like to propose we introduce a new layer of Elder Software Engineer, for people in the 11-20 years range, and Ancient Software Engineering for those 21+&quot;</a></li>
+</ul>
+]]></description>
+
+        <enclosure url="https://cdn.changelog.com/uploads/jsparty/26/js-party-26.mp3" length="42902815" type="audio/mpeg" />
+        <itunes:author>Jerod Santo, Nick Nisi, and Christopher Hiller</itunes:author>
+        <itunes:image href="https://cdn.changelog.com/uploads/covers/js-party-original.png?v=63688781367"/>
+        <itunes:duration>59:08</itunes:duration>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:keywords>javascript, html, web, programming, frontend, backend, node, changelog, css, animation, iot, robotics</itunes:keywords>
+        <itunes:subtitle>🎊 TS Party! 🎊</itunes:subtitle>
+        <itunes:summary>Jerod Santo, Nick Nisi, and Christopher Hiller talk about what TypeScript is and why we should care, who's using TypeScript, and thoughts on developer titles. </itunes:summary>
+      </item>
+      <item>
+        <title>25: Dojo 2.0 with Dylan Schiemann</title>
+        <link>https://changelog.com/jsparty/25</link>
+        <guid isPermaLink="false">changelog.com/6/521</guid>
+        <pubDate>Fri, 11 May 2018 11:00:00 +0000</pubDate>
+        <dc:creator>Suz Hinton, Alex Sexton, and Nick Nisi</dc:creator>
+        <description><![CDATA[<p>Suz Hinton, Alex Sexton, and Nick Nisi talk with Dylan Schiemann about Dojo 2.0, managing an open source project, web standards, and more.</p>
+
+  <p>Sponsors</p>
+  <ul>
+    <li>
+      <a href="https://rollbar.com/changelog">Rollbar</a> – 
+<strong>Our error monitoring partner.</strong> Rollbar provides real-time error monitoring, alerting, and analytics to help us resolve production errors in minutes. To start resolving errors in minutes, and deploying with confidence - head to <a href="https://rollbar.com/changelog">rollbar.com/changelog</a>
+    </li>
+    <li>
+      <a href="https://oreil.ly/2J3gCBP">O&#39;Reilly Velocity Conference</a> – 
+Performance. Resilience. Security. Build and run the systems that power modern businesses. Use the discount code <code>JSPARTY</code> to get 20% off Gold, Silver, and Bronze passes. Location and dates: San Jose, California, June 11-14. Learn more - <a href="https://oreil.ly/2J3gCBP">oreil.ly/2J3gCBP</a>
+    </li>
+    <li>
+      <a href="https://www.fastly.com/?utm_source=changelog&amp;utm_medium=podcast&amp;utm_campaign=changelog-sponsorship">Fastly</a> – 
+<strong>Our bandwidth partner.</strong> Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at <a href="https://www.fastly.com/?utm_source=changelog&amp;utm_medium=podcast&amp;utm_campaign=changelog-sponsorship">fastly.com</a>.
+    </li>
+    <li>
+      <a href="https://linode.com/changelog">Linode</a> – 
+<strong>Our cloud server of choice.</strong> Deploy a fast, efficient, native SSD cloud server for only $5/month. Get 4 months free using the code <code>changelog2018</code>. Start your server - head to <a href="https://linode.com/changelog">linode.com/changelog</a>
+    </li>
+  </ul>
+
+  <p>Featuring</p>
+  <ul>
+    <li>Dylan Schiemann &ndash; <a href="https://twitter.com/dylans">Twitter</a>, <a href="https://github.com/dylans">GitHub</a>, <a href="https://dylanschiemann.com">Website</a></li>
+    <li>Suz Hinton &ndash; <a href="https://twitter.com/noopkat">Twitter</a>, <a href="https://github.com/noopkat">GitHub</a>, <a href="http://noopkat.com/">Website</a></li>
+    <li>Alex Sexton &ndash; <a href="https://twitter.com/SlexAxton">Twitter</a>, <a href="https://github.com/SlexAxton">GitHub</a>, <a href="https://alexsexton.com">Website</a></li>
+    <li>Nick Nisi &ndash; <a href="https://twitter.com/nicknisi">Twitter</a>, <a href="https://github.com/nicknisi">GitHub</a>, <a href="https://nicknisi.com">Website</a></li>
+  </ul>
+<p>Notes and Links</p>
+<ul>
+<li><a href="https://dojo.io/">Dojo</a></li>
+<li><a href="https://twitter.com/addyosmani/status/598911802760650752">Addy Osmani on Twitter: &quot;@dojo @dylans This is true of most things in the JavaScript community at this point…&quot;</a></li>
+<li><a href="https://codesandbox.io/s/github/dojo/dojo-codesandbox-template">dojo-codesandbox-template - CodeSandbox</a></li>
+<li><a href="https://js.foundation/cla">CLA - JS Foundation</a></li>
+</ul>
+]]></description>
+
+        <enclosure url="https://cdn.changelog.com/uploads/jsparty/25/js-party-25.mp3" length="48133630" type="audio/mpeg" />
+        <itunes:author>Suz Hinton, Alex Sexton, and Nick Nisi</itunes:author>
+        <itunes:image href="https://cdn.changelog.com/uploads/covers/js-party-original.png?v=63688781367"/>
+        <itunes:duration>1:06:24</itunes:duration>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:keywords>javascript, html, web, programming, frontend, backend, node, changelog, css, animation, iot, robotics</itunes:keywords>
+        <itunes:subtitle>Dojo 2.0</itunes:subtitle>
+        <itunes:summary>Suz Hinton, Alex Sexton, and Nick Nisi talk with Dylan Schiemann about Dojo 2.0, managing an open source project, web standards, and more. </itunes:summary>
+      </item>
+      <item>
+        <title>24: Cool, depending on your definition of cool</title>
+        <link>https://changelog.com/jsparty/24</link>
+        <guid isPermaLink="false">changelog.com/6/519</guid>
+        <pubDate>Mon, 07 May 2018 11:00:00 +0000</pubDate>
+        <dc:creator>Feross Aboukhadijeh, Suz Hinton, Nick Nisi, and Alex Sexton</dc:creator>
+        <description><![CDATA[<p>Feross Aboukhadijeh, Suz Hinton, Nick Nisi, and Alex Sexton get weird this week talking about their favorite old and weird HTML tags, web APIs that do or don't require permission, and their favorite weird websites.</p>
+
+  <p>Sponsors</p>
+  <ul>
+    <li>
+      <a href="https://rollbar.com/changelog">Rollbar</a> – 
+<strong>Our error monitoring partner.</strong> Rollbar provides real-time error monitoring, alerting, and analytics to help us resolve production errors in minutes. To start resolving errors in minutes, and deploying with confidence - head to <a href="https://rollbar.com/changelog">rollbar.com/changelog</a>
+    </li>
+    <li>
+      <a href="https://oreil.ly/2J3gCBP">O&#39;Reilly Velocity Conference</a> – 
+Performance. Resilience. Security. Build and run the systems that power modern businesses. Use the discount code <code>JSPARTY</code> to get 20% off Gold, Silver, and Bronze passes. Location and dates: San Jose, California, June 11-14. Learn more - <a href="https://oreil.ly/2J3gCBP">oreil.ly/2J3gCBP</a>
+    </li>
+    <li>
+      <a href="https://www.fastly.com/?utm_source=changelog&amp;utm_medium=podcast&amp;utm_campaign=changelog-sponsorship">Fastly</a> – 
+<strong>Our bandwidth partner.</strong> Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at <a href="https://www.fastly.com/?utm_source=changelog&amp;utm_medium=podcast&amp;utm_campaign=changelog-sponsorship">fastly.com</a>.
+    </li>
+    <li>
+      <a href="https://linode.com/changelog">Linode</a> – 
+<strong>Our cloud server of choice.</strong> Deploy a fast, efficient, native SSD cloud server for only $5/month. Get 4 months free using the code <code>changelog2018</code>. Start your server - head to <a href="https://linode.com/changelog">linode.com/changelog</a>
+    </li>
+  </ul>
+
+  <p>Featuring</p>
+  <ul>
+    <li>Feross Aboukhadijeh &ndash; <a href="https://twitter.com/feross">Twitter</a>, <a href="https://github.com/feross">GitHub</a>, <a href="http://feross.org/">Website</a></li>
+    <li>Suz Hinton &ndash; <a href="https://twitter.com/noopkat">Twitter</a>, <a href="https://github.com/noopkat">GitHub</a>, <a href="http://noopkat.com/">Website</a></li>
+    <li>Nick Nisi &ndash; <a href="https://twitter.com/nicknisi">Twitter</a>, <a href="https://github.com/nicknisi">GitHub</a>, <a href="https://nicknisi.com">Website</a></li>
+    <li>Alex Sexton &ndash; <a href="https://twitter.com/SlexAxton">Twitter</a>, <a href="https://github.com/SlexAxton">GitHub</a>, <a href="https://alexsexton.com">Website</a></li>
+  </ul>
+<p>Notes and Links</p>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/map"><code>&lt;map&gt;</code></a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl"><code>&lt;dl&gt;</code>: The Description List element</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/wbr"><code>&lt;wbr&gt;</code></a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/applet"><code>&lt;applet&gt;</code>: The Embed Java Applet element</a></li>
+<li><a href="https://www.albinoblacksheep.com/">Albino Blacksheep</a></li>
+<li><a href="https://www.newgrounds.com/">Newgrounds.com — Everything, By Everyone</a></li>
+<li><a href="https://homestarrunner.com/">Everybody! Everybody!</a></li>
+<li><a href="https://twitter.com/DAVID_FIRTH">David Firth 🆙 (@DAVID_FIRTH) | Twitter</a></li>
+<li><a href="https://www.newgrounds.com/collection/saladfingers">Salad Fingers</a></li>
+<li><a href="http://illwillpress.com/">::iLL WiLL PreSS:: HOME OF NEUROTICALLY YOURS, 4Y-RECORDS &amp; MORE.</a></li>
+<li><a href="https://procatinator.com/?cat=124">:: procatinator ::</a></li>
+<li><a href="http://ytmnd.com/">ytmnd - you're the man now dog!</a></li>
+<li><a href="http://milliondollarhomepage.com/">The Million Dollar Homepage - Own a piece of internet history!</a></li>
+<li><a href="http://www.play-helicopter-game.com/">HELICOPTER GAME - Play the famous Helicopter Game</a></li>
+<li><a href="https://www.albinoblacksheep.com/flash/end">The End of the World</a></li>
+<li><a href="http://maddox.xmission.com/">The Best Page In The Universe.</a></li>
+</ul>
+]]></description>
+
+        <enclosure url="https://cdn.changelog.com/uploads/jsparty/24/js-party-24.mp3" length="39501416" type="audio/mpeg" />
+        <itunes:author>Feross Aboukhadijeh, Suz Hinton, Nick Nisi, and Alex Sexton</itunes:author>
+        <itunes:image href="https://cdn.changelog.com/uploads/covers/js-party-original.png?v=63688781367"/>
+        <itunes:duration>54:24</itunes:duration>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:keywords>javascript, html, web, programming, frontend, backend, node, changelog, css, animation, iot, robotics</itunes:keywords>
+        <itunes:subtitle>Cool, depending on your definition of cool</itunes:subtitle>
+        <itunes:summary>Feross Aboukhadijeh, Suz Hinton, Nick Nisi, and Alex Sexton get weird this week talking about their favorite old and weird HTML tags, web APIs that do or don't require permission, and their favorite weird websites. </itunes:summary>
+      </item>
+      <item>
+        <title>23: The state of Node security</title>
+        <link>https://changelog.com/jsparty/23</link>
+        <guid isPermaLink="false">changelog.com/6/512</guid>
+        <pubDate>Mon, 30 Apr 2018 11:00:00 +0000</pubDate>
+        <dc:creator>Suz Hinton, Christopher Hiller, and Jerod Santo</dc:creator>
+        <description><![CDATA[<p>Suz Hinton, Christopher Hiller, and Jerod Santo talk with Adam Baldwin about his company being acquired by NPM, the security of Node, best practices, and more.</p>
+
+  <p>Sponsors</p>
+  <ul>
+    <li>
+      <a href="https://rollbar.com/changelog">Rollbar</a> – 
+<strong>Our error monitoring partner.</strong> Rollbar provides real-time error monitoring, alerting, and analytics to help us resolve production errors in minutes. To start resolving errors in minutes, and deploying with confidence - head to <a href="https://rollbar.com/changelog">rollbar.com/changelog</a>
+    </li>
+    <li>
+      <a href="https://oreil.ly/2J3gCBP">O&#39;Reilly Velocity Conference</a> – 
+Performance. Resilience. Security. Build and run the systems that power modern businesses. Use the discount code <code>JSPARTY</code> to get 20% off Gold, Silver, and Bronze passes. Location and dates: San Jose, California, June 11-14. Learn more - <a href="https://oreil.ly/2J3gCBP">oreil.ly/2J3gCBP</a>
+    </li>
+    <li>
+      <a href="https://www.fastly.com/?utm_source=changelog&amp;utm_medium=podcast&amp;utm_campaign=changelog-sponsorship">Fastly</a> – 
+<strong>Our bandwidth partner.</strong> Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at <a href="https://www.fastly.com/?utm_source=changelog&amp;utm_medium=podcast&amp;utm_campaign=changelog-sponsorship">fastly.com</a>.
+    </li>
+    <li>
+      <a href="https://linode.com/changelog">Linode</a> – 
+<strong>Our cloud server of choice.</strong> Deploy a fast, efficient, native SSD cloud server for only $5/month. Get 4 months free using the code <code>changelog2018</code>. Start your server - head to <a href="https://linode.com/changelog">linode.com/changelog</a>
+    </li>
+  </ul>
+
+  <p>Featuring</p>
+  <ul>
+    <li>Adam Baldwin &ndash; <a href="https://twitter.com/adam_baldwin">Twitter</a>, <a href="https://github.com/evilpacket">GitHub</a></li>
+    <li>Suz Hinton &ndash; <a href="https://twitter.com/noopkat">Twitter</a>, <a href="https://github.com/noopkat">GitHub</a>, <a href="http://noopkat.com/">Website</a></li>
+    <li>Christopher Hiller &ndash; <a href="https://twitter.com/b0neskull">Twitter</a>, <a href="https://github.com/boneskull">GitHub</a>, <a href="https://boneskull.com">Website</a></li>
+    <li>Jerod Santo &ndash; <a href="https://twitter.com/jerodsanto">Twitter</a>, <a href="https://github.com/jerodsanto">GitHub</a>, <a href="http://jerodsanto.net">Website</a></li>
+  </ul>
+<p>Notes and Links</p>
+<ul>
+<li><a href="https://medium.com/npm-inc/npm-acquires-lift-security-258e257ef639">npm Acquires ^Lift Security and the Node Security Platform</a></li>
+<li><a href="https://medium.com/the-node-js-collection/the-node-js-project-introduces-latest-release-line-node-js-10-x-bf07abfa9076">The Node.js Project Introduces Latest Release Line: Node.js 10.x</a></li>
+<li><a href="https://medium.com/npm-inc/announcing-npm-6-5d0b1799a905">Announcing npm@6</a></li>
+</ul>
+]]></description>
+
+        <enclosure url="https://cdn.changelog.com/uploads/jsparty/23/js-party-23.mp3" length="39820973" type="audio/mpeg" />
+        <itunes:author>Suz Hinton, Christopher Hiller, and Jerod Santo</itunes:author>
+        <itunes:image href="https://cdn.changelog.com/uploads/covers/js-party-original.png?v=63688781367"/>
+        <itunes:duration>54:51</itunes:duration>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:keywords>javascript, html, web, programming, frontend, backend, node, changelog, css, animation, iot, robotics</itunes:keywords>
+        <itunes:subtitle>The state of Node security</itunes:subtitle>
+        <itunes:summary>Suz Hinton, Christopher Hiller, and Jerod Santo talk with Adam Baldwin about his company being acquired by NPM, the security of Node, best practices, and more. </itunes:summary>
+      </item>
+      <item>
+        <title>22: PWAs to eat the world. Or maybe not. News at 11!</title>
+        <link>https://changelog.com/jsparty/22</link>
+        <guid isPermaLink="false">changelog.com/6/507</guid>
+        <pubDate>Mon, 23 Apr 2018 11:00:00 +0000</pubDate>
+        <dc:creator>Jerod Santo, Safia Abdalla, Nick Nisi, and Kevin Ball</dc:creator>
+        <description><![CDATA[<p>Jerod Santo, Safia Abdalla, Nick Nisi, and Kevin Ball talk about progressive web apps. What are they, what do they do, what are some practical ways of using them, and more.</p>
+
+  <p>Sponsors</p>
+  <ul>
+    <li>
+      <a href="https://rollbar.com/changelog">Rollbar</a> – 
+<strong>Our error monitoring partner.</strong> Rollbar provides real-time error monitoring, alerting, and analytics to help us resolve production errors in minutes. To start resolving errors in minutes, and deploying with confidence - head to <a href="https://rollbar.com/changelog">rollbar.com/changelog</a>
+    </li>
+    <li>
+      <a href="http://fluentconf.com/">O&#39;Reilly Fluent Conference</a> – 
+Learn the latest JavaScript tools and methods. Build a better web. Deliver the best user experiences. Be part of what past attendees call &quot;a great center for modern web development and disruption,&quot; and &quot;the best place to see the current state of the web.&quot; Use discount code <code>JSPARTY</code> to save 20% on most passes. Location and dates: San Jose, California, June 11-14. Learn more - <a href="http://fluentconf.com/">fluentconf.com</a>
+    </li>
+    <li>
+      <a href="https://linode.com/changelog">Linode</a> – 
+<strong>Our cloud server of choice.</strong> Deploy a fast, efficient, native SSD cloud server for only $5/month. Get 4 months free using the code <code>changelog2018</code>. Start your server - head to <a href="https://linode.com/changelog">linode.com/changelog</a>
+    </li>
+    <li>
+      <a href="https://www.fastly.com/?utm_source=changelog&amp;utm_medium=podcast&amp;utm_campaign=changelog-sponsorship">Fastly</a> – 
+<strong>Our bandwidth partner.</strong> Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at <a href="https://www.fastly.com/?utm_source=changelog&amp;utm_medium=podcast&amp;utm_campaign=changelog-sponsorship">fastly.com</a>.
+    </li>
+  </ul>
+
+  <p>Featuring</p>
+  <ul>
+    <li>Jerod Santo &ndash; <a href="https://twitter.com/jerodsanto">Twitter</a>, <a href="https://github.com/jerodsanto">GitHub</a>, <a href="http://jerodsanto.net">Website</a></li>
+    <li>Safia Abdalla &ndash; <a href="https://twitter.com/captainsafia">Twitter</a>, <a href="https://github.com/captainsafia">GitHub</a>, <a href="https://safia.rocks/">Website</a></li>
+    <li>Nick Nisi &ndash; <a href="https://twitter.com/nicknisi">Twitter</a>, <a href="https://github.com/nicknisi">GitHub</a>, <a href="https://nicknisi.com">Website</a></li>
+    <li>Kevin Ball &ndash; <a href="https://twitter.com/kbal11">Twitter</a>, <a href="https://github.com/kball">GitHub</a>, <a href="https://zendev.com/">Website</a></li>
+  </ul>
+<p>Notes and Links</p>
+<ul>
+<li><a href="https://developers.google.com/web/progressive-web-apps/checklist">Progressive Web App Checklist</a></li>
+<li><a href="https://twitter.com/yoavweiss/status/986662671528415232">Yoav Weiss on Twitter: &quot;Pinterest saw their new PWA leading to core business metrics which beat their previous web experience, as well as their native app!!… https://t.co/sZ8crXB80T&quot;</a></li>
+<li><a href="https://medium.com/dev-channel/a-pinterest-progressive-web-app-performance-case-study-3bd6ed2e6154">A Pinterest Progressive Web App Performance Case Study</a></li>
+<li><a href="https://changelog.com/news/welcoming-progressive-web-apps-to-microsoft-edge-and-windows-10-ZEz">Welcoming progressive web apps to Microsoft Edge and Windows 10</a></li>
+<li><a href="https://changelog.com/news/pwas-on-safari-l3d">PWAs on Safari?!</a></li>
+<li><a href="https://zarf.co/">Zarf</a></li>
+</ul>
+]]></description>
+
+        <enclosure url="https://cdn.changelog.com/uploads/jsparty/22/js-party-22.mp3" length="40956871" type="audio/mpeg" />
+        <itunes:author>Jerod Santo, Safia Abdalla, Nick Nisi, and Kevin Ball</itunes:author>
+        <itunes:image href="https://cdn.changelog.com/uploads/covers/js-party-original.png?v=63688781367"/>
+        <itunes:duration>56:25</itunes:duration>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:keywords>javascript, html, web, programming, frontend, backend, node, changelog, css, animation, iot, robotics</itunes:keywords>
+        <itunes:subtitle>PWAs to eat the world. Or maybe not. News at 11!</itunes:subtitle>
+        <itunes:summary>Jerod Santo, Safia Abdalla, Nick Nisi, and Kevin Ball talk about progressive web apps. What are they, what do they do, what are some practical ways of using them, and more. </itunes:summary>
+      </item>
+      <item>
+        <title>21: Oh, the places JS will go</title>
+        <link>https://changelog.com/jsparty/21</link>
+        <guid isPermaLink="false">changelog.com/6/503</guid>
+        <pubDate>Fri, 13 Apr 2018 20:38:05 +0000</pubDate>
+        <dc:creator>Jerod Santo, Suz Hinton, Feross Aboukhadijeh, and Kevin Ball</dc:creator>
+        <description><![CDATA[<p>Jerod Santo, Suz Hinton, Feross Aboukhadijeh, and Kevin Ball talk about awesome things being done with JavaScript like WebUSB, WebTorrent, and DSLs.</p>
+
+  <p>Sponsors</p>
+  <ul>
+    <li>
+      <a href="https://rollbar.com/changelog">Rollbar</a> – 
+<strong>Our error monitoring partner.</strong> Rollbar provides real-time error monitoring, alerting, and analytics to help us resolve production errors in minutes. To start resolving errors in minutes, and deploying with confidence - head to <a href="https://rollbar.com/changelog">rollbar.com/changelog</a>
+    </li>
+    <li>
+      <a href="http://fluentconf.com/">O&#39;Reilly Fluent Conference</a> – 
+Learn the latest JavaScript tools and methods. Build a better web. Deliver the best user experiences. Be part of what past attendees call &quot;a great center for modern web development and disruption,&quot; and &quot;the best place to see the current state of the web.&quot; Use discount code <code>JSPARTY</code> to save 20% on most passes. Location and dates: San Jose, California, June 11-14. Learn more - <a href="http://fluentconf.com/">fluentconf.com</a>
+    </li>
+    <li>
+      <a href="https://linode.com/changelog">Linode</a> – 
+<strong>Our cloud server of choice.</strong> Deploy a fast, efficient, native SSD cloud server for only $5/month. Get 4 months free using the code <code>changelog2018</code>. Start your server - head to <a href="https://linode.com/changelog">linode.com/changelog</a>
+    </li>
+    <li>
+      <a href="https://www.fastly.com/?utm_source=changelog&amp;utm_medium=podcast&amp;utm_campaign=changelog-sponsorship">Fastly</a> – 
+<strong>Our bandwidth partner.</strong> Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at <a href="https://www.fastly.com/?utm_source=changelog&amp;utm_medium=podcast&amp;utm_campaign=changelog-sponsorship">fastly.com</a>.
+    </li>
+  </ul>
+
+  <p>Featuring</p>
+  <ul>
+    <li>Jerod Santo &ndash; <a href="https://twitter.com/jerodsanto">Twitter</a>, <a href="https://github.com/jerodsanto">GitHub</a>, <a href="http://jerodsanto.net">Website</a></li>
+    <li>Suz Hinton &ndash; <a href="https://twitter.com/noopkat">Twitter</a>, <a href="https://github.com/noopkat">GitHub</a>, <a href="http://noopkat.com/">Website</a></li>
+    <li>Feross Aboukhadijeh &ndash; <a href="https://twitter.com/feross">Twitter</a>, <a href="https://github.com/feross">GitHub</a>, <a href="http://feross.org/">Website</a></li>
+    <li>Kevin Ball &ndash; <a href="https://twitter.com/kbal11">Twitter</a>, <a href="https://github.com/kball">GitHub</a>, <a href="https://zendev.com/">Website</a></li>
+  </ul>
+<p>Notes and Links</p>
+<ul>
+<li><a href="https://medium.freecodecamp.org/exploring-the-linguistics-behind-regular-expressions-596fab41146">Exploring the Linguistics Behind Regular Expressions</a></li>
+<li><a href="https://www.youtube.com/watch?v=UwX0ntmJ61A">JavaScript Hardware with Noopkat!</a></li>
+<li><a href="https://github.com/photonstorm/phaser">Phaser</a> - A fun, free and fast 2D game framework for making HTML5 games for desktop and mobile web browsers, supporting Canvas and WebGL rendering</li>
+<li><a href="https://auth0.com/blog/developing-games-with-react-redux-and-svg-part-1/">Developing Games with React, Redux, and SVG - Part 1</a></li>
+<li><a href="https://www.youtube.com/watch?v=UKCoRKzRqN4">Craig Spence - Fantastic ASTs and where to find them</a></li>
+<li><a href="https://www.html5rocks.com/en/tutorials/webrtc/basics/">Getting Started with WebRTC</a></li>
+<li><a href="https://webtorrent.io/">WebTorrent</a> - Streaming browser torrent client</li>
+<li><a href="https://wicg.github.io/webusb/">WebUSB API</a></li>
+</ul>
+]]></description>
+
+        <enclosure url="https://cdn.changelog.com/uploads/jsparty/21/js-party-21.mp3" length="39780595" type="audio/mpeg" />
+        <itunes:author>Jerod Santo, Suz Hinton, Feross Aboukhadijeh, and Kevin Ball</itunes:author>
+        <itunes:image href="https://cdn.changelog.com/uploads/covers/js-party-original.png?v=63688781367"/>
+        <itunes:duration>54:47</itunes:duration>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:keywords>javascript, html, web, programming, frontend, backend, node, changelog, css, animation, iot, robotics</itunes:keywords>
+        <itunes:subtitle>Oh, the places JS will go</itunes:subtitle>
+        <itunes:summary>Jerod Santo, Suz Hinton, Feross Aboukhadijeh, and Kevin Ball talk about awesome things being done with JavaScript like WebUSB, WebTorrent, and DSLs. </itunes:summary>
+      </item>
+      <item>
+        <title>20: JS Party is back! 🎉</title>
+        <link>https://changelog.com/jsparty/20</link>
+        <guid isPermaLink="false">changelog.com/6/502</guid>
+        <pubDate>Fri, 06 Apr 2018 21:32:27 +0000</pubDate>
+        <dc:creator>Jerod Santo, Safia Abdalla, Nick Nisi, and Christopher Hiller</dc:creator>
+        <description><![CDATA[<p>The party is back! In this episode, we talk about what we love about JS, Tabler and admin UI's, and shoutouts to some of our favorite projects and people.</p>
+
+  <p>Sponsors</p>
+  <ul>
+    <li>
+      <a href="https://rollbar.com/changelog">Rollbar</a> – 
+<strong>Our error monitoring partner.</strong> Rollbar provides real-time error monitoring, alerting, and analytics to help us resolve production errors in minutes. To start resolving errors in minutes, and deploying with confidence - head to <a href="https://rollbar.com/changelog">rollbar.com/changelog</a>
+    </li>
+    <li>
+      <a href="https://www.fastly.com/?utm_source=changelog&amp;utm_medium=podcast&amp;utm_campaign=changelog-sponsorship">Fastly</a> – 
+<strong>Our bandwidth partner.</strong> Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at <a href="https://www.fastly.com/?utm_source=changelog&amp;utm_medium=podcast&amp;utm_campaign=changelog-sponsorship">fastly.com</a>.
+    </li>
+    <li>
+      <a href="https://linode.com/changelog">Linode</a> – 
+<strong>Our cloud server of choice.</strong> Deploy a fast, efficient, native SSD cloud server for only $5/month. Get 4 months free using the code <code>changelog2018</code>. Start your server - head to <a href="https://linode.com/changelog">linode.com/changelog</a>
+    </li>
+  </ul>
+
+  <p>Featuring</p>
+  <ul>
+    <li>Jerod Santo &ndash; <a href="https://twitter.com/jerodsanto">Twitter</a>, <a href="https://github.com/jerodsanto">GitHub</a>, <a href="http://jerodsanto.net">Website</a></li>
+    <li>Safia Abdalla &ndash; <a href="https://twitter.com/captainsafia">Twitter</a>, <a href="https://github.com/captainsafia">GitHub</a>, <a href="https://safia.rocks/">Website</a></li>
+    <li>Nick Nisi &ndash; <a href="https://twitter.com/nicknisi">Twitter</a>, <a href="https://github.com/nicknisi">GitHub</a>, <a href="https://nicknisi.com">Website</a></li>
+    <li>Christopher Hiller &ndash; <a href="https://twitter.com/b0neskull">Twitter</a>, <a href="https://github.com/boneskull">GitHub</a>, <a href="https://boneskull.com">Website</a></li>
+  </ul>
+<p>Notes and Links</p>
+<ul>
+<li><a href="https://changelog.com/rfc/15">Request For Commits #15: Maintaining a Popular Project and Managing Burnout</a></li>
+<li><a href="https://blog.safia.rocks/">The Web Log of Safia Abdalla</a></li>
+<li><a href="https://github.com/buunguyen/octotree">buunguyen/octotree: Code tree for GitHub</a></li>
+<li><a href="https://octobox.io/">Octobox</a></li>
+<li><a href="https://github.com/StylishThemes/GitHub-Dark">Dark GitHub style</a></li>
+<li><a href="https://github.com/StylishThemes/GitHub-Dark-Script">GitHub Dark as a userscript</a></li>
+<li><a href="https://github.com/Mottie/GitHub-userscripts">Userscripts to add functionality to GitHub</a></li>
+<li><a href="https://opensource.appbase.io/reactivesearch/">Reactivesearch</a></li>
+</ul>
+<h3>Shout outs</h3>
+<ul>
+<li>Jack Lukic the creator of <a href="https://semantic-ui.com/">Semantic UI</a> (Jerod)</li>
+<li>Alexandru Maier, the awesome human behind all of our transcripts (Jerod)</li>
+<li></li>
+</ul>
+]]></description>
+
+        <enclosure url="https://cdn.changelog.com/uploads/jsparty/20/js-party-20.mp3" length="35308439" type="audio/mpeg" />
+        <itunes:author>Jerod Santo, Safia Abdalla, Nick Nisi, and Christopher Hiller</itunes:author>
+        <itunes:image href="https://cdn.changelog.com/uploads/covers/js-party-original.png?v=63688781367"/>
+        <itunes:duration>48:34</itunes:duration>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:keywords>javascript, html, web, programming, frontend, backend, node, changelog, css, animation, iot, robotics</itunes:keywords>
+        <itunes:subtitle>JS Party is back! 🎉</itunes:subtitle>
+        <itunes:summary>The party is back! In this episode, we talk about what we love about JS, Tabler and admin UI's, and shoutouts to some of our favorite projects and people. </itunes:summary>
+      </item>
+      <item>
+        <title>19: Web Audio API and TypeScript is Turing Complete with Myles Borins</title>
+        <link>https://changelog.com/jsparty/19</link>
+        <guid isPermaLink="false">changelog.com/6/431</guid>
+        <pubDate>Fri, 18 Aug 2017 17:30:00 +0000</pubDate>
+        <dc:creator>Rachel White and Alex Sexton</dc:creator>
+        <description><![CDATA[<p>Alex Sexton, Rachel White, and Myles Borins talk about the Web Audio API and how TypeScript is &quot;Turing Complete&quot;.</p>
+
+  <p>Sponsors</p>
+  <ul>
+    <li>
+      <a href="https://hired.com/changelog">Hired</a> – 
+Get hired. It's free — in fact, they pay you to get hired. Our listeners get a double hiring bonus of $600.
+    </li>
+    <li>
+      <a href="https://www.toptal.com/?utm_source=changelog&amp;utm_medium=podcast&amp;utm_campaign=changelog-sponsorship">Toptal</a> – 
+Freelance with top companies. Travel the world. Easily scale your team. Hire the top freelance software developers, designers, and finance experts. Email <code>adam@changelog.com</code> for a personal introduction.
+    </li>
+    <li>
+      <a href="http://jsparty.fm/sentry">Sentry</a> – 
+<strong>Get 30 days free</strong> when you sign up with the code <code>jsparty</code>. Error reporting and notifications for JavaScript apps and the rest of your stack. Start tracking errors for free. Support for React, Angular, Ember, Vue, Backbone, and Node frameworks like Express and Koa.
+    </li>
+  </ul>
+
+  <p>Featuring</p>
+  <ul>
+    <li>Myles Borins &ndash; <a href="https://twitter.com/MylesBorins">Twitter</a>, <a href="https://github.com/MylesBorins">GitHub</a></li>
+    <li>Rachel White &ndash; <a href="https://twitter.com/ohhoe">Twitter</a>, <a href="https://github.com/rachelnicole">GitHub</a></li>
+    <li>Alex Sexton &ndash; <a href="https://twitter.com/SlexAxton">Twitter</a>, <a href="https://github.com/SlexAxton">GitHub</a>, <a href="https://alexsexton.com">Website</a></li>
+  </ul>
+<p>Notes and Links</p>
+<ul>
+<li><a href="https://webaudio.github.io/web-audio-api/">Web Audio API</a> - W3C Editor's Draft 10 August 2017</li>
+<li><a href="https://github.com/Microsoft/TypeScript/issues/14833">TypeScripts Type System is Turing Complete</a> - GitHub Issues</li>
+<li><a href="https://medium.com/@ericsimons/stackblitz-online-vs-code-ide-for-angular-react-7d09348497f4">StackBlitz</a> — Online VS Code IDE for Angular &amp; React</li>
+<li><a href="https://www.quora.com/How-is-JavaScript-used-within-the-Spotify-desktop-application-Is-it-packaged-up-and-run-locally-only-retrieving-the-assets-as-and-when-needed-What-JavaScript-VM-is-used">How is JavaScript used within the Spotify desktop application?</a> - Quora</li>
+<li><a href="https://en.wikipedia.org/wiki/Inversion_%28meteorology%29#Sound">Inversion (meteorology)</a></li>
+<li><a href="https://mylesborins.com/project/the-automagic-music-maker/">The Automagic Music Maker</a></li>
+</ul>
+]]></description>
+
+        <enclosure url="https://cdn.changelog.com/uploads/jsparty/19/js-party-19.mp3" length="60478386" type="audio/mpeg" />
+        <itunes:author>Rachel White and Alex Sexton</itunes:author>
+        <itunes:image href="https://cdn.changelog.com/uploads/covers/js-party-original.png?v=63688781367"/>
+        <itunes:duration>41:47</itunes:duration>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:keywords>javascript, html, web, programming, frontend, backend, node, changelog, css, animation, iot, robotics</itunes:keywords>
+        <itunes:subtitle>Web Audio API and TypeScript is Turing Complete</itunes:subtitle>
+        <itunes:summary>Alex Sexton, Rachel White, and Myles Borins talk about the Web Audio API and how TypeScript is "Turing Complete". </itunes:summary>
+      </item>
+      <item>
+        <title>18: 2017 Node.js User Survey and Beaker Browser with Paul Frazee</title>
+        <link>https://changelog.com/jsparty/18</link>
+        <guid isPermaLink="false">changelog.com/6/427</guid>
+        <pubDate>Fri, 18 Aug 2017 17:15:00 +0000</pubDate>
+        <dc:creator>Mikeal Rogers and Alex Sexton</dc:creator>
+        <description><![CDATA[<p>Mikeal Rogers, Alex Sexton, and Paul Frazee talk about the 2017 Node.js user survey and Beaker Browser - an experimental peer-to-peer web browser that uses the Dat protocol to host sites from a user's device.</p>
+
+  <p>Sponsors</p>
+  <ul>
+    <li>
+      <a href="https://hired.com/changelog">Hired</a> – 
+Get hired. It's free — in fact, they pay you to get hired. Our listeners get a double hiring bonus of $600.
+    </li>
+    <li>
+      <a href="https://www.toptal.com/?utm_source=changelog&amp;utm_medium=podcast&amp;utm_campaign=changelog-sponsorship">Toptal</a> – 
+Freelance with top companies. Travel the world. Easily scale your team. Hire the top freelance software developers, designers, and finance experts. Email <code>adam@changelog.com</code> for a personal introduction.
+    </li>
+    <li>
+      <a href="http://jsparty.fm/sentry">Sentry</a> – 
+<strong>Get 30 days free</strong> when you sign up with the code <code>jsparty</code>. Error reporting and notifications for JavaScript apps and the rest of your stack. Start tracking errors for free. Support for React, Angular, Ember, Vue, Backbone, and Node frameworks like Express and Koa.
+    </li>
+  </ul>
+
+  <p>Featuring</p>
+  <ul>
+    <li>Paul Frazee✌️ &ndash; <a href="https://twitter.com/pfrazee">Twitter</a>, <a href="https://github.com/pfrazee">GitHub</a></li>
+    <li>Mikeal Rogers &ndash; <a href="https://twitter.com/mikeal">Twitter</a>, <a href="https://github.com/mikeal">GitHub</a></li>
+    <li>Alex Sexton &ndash; <a href="https://twitter.com/SlexAxton">Twitter</a>, <a href="https://github.com/SlexAxton">GitHub</a>, <a href="https://alexsexton.com">Website</a></li>
+  </ul>
+<p>Notes and Links</p>
+<p><a href="https://hackernoon.com/node-js-emerging-as-the-universal-development-framework-for-a-diversity-of-applications-c2e788290f5f">Node.js Emerging as the Universal Development Framework for a Diversity of Applications</a> - Hackernoon</p>
+<ul>
+<li><a href="https://nodejs.org/static/documents/casestudies/Nodejs_2017_User_Survey_Exec_Summary.pdf">2017 Node.js User Survey (PDF)</a></li>
+<li><a href="https://github.com/globalizejs/globalize">Globalize</a> - A JavaScript library for internationalization and localization that leverages the official Unicode CLDR JSON data</li>
+<li><a href="https://beakerbrowser.com/">Beaker Browser</a> - Rethink the Web browser</li>
+</ul>
+]]></description>
+
+        <enclosure url="https://cdn.changelog.com/uploads/jsparty/18/js-party-18.mp3" length="79637737" type="audio/mpeg" />
+        <itunes:author>Mikeal Rogers and Alex Sexton</itunes:author>
+        <itunes:image href="https://cdn.changelog.com/uploads/covers/js-party-original.png?v=63688781367"/>
+        <itunes:duration>55:07</itunes:duration>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:keywords>javascript, html, web, programming, frontend, backend, node, changelog, css, animation, iot, robotics</itunes:keywords>
+        <itunes:subtitle>2017 Node.js User Survey and Beaker Browser</itunes:subtitle>
+        <itunes:summary>Mikeal Rogers, Alex Sexton, and Paul Frazee talk about the 2017 Node.js user survey and Beaker Browser - an experimental peer-to-peer web browser that uses the Dat protocol to host sites from a user's device. </itunes:summary>
+      </item>
+      <item>
+        <title>17: AMA — BasicAttentionToken, Robotics, IDE&#39;s and Stuff</title>
+        <link>https://changelog.com/jsparty/17</link>
+        <guid isPermaLink="false">changelog.com/6/418</guid>
+        <pubDate>Fri, 18 Aug 2017 17:00:00 +0000</pubDate>
+        <dc:creator>Mikeal Rogers, Rachel White, and Adam Stacoviak</dc:creator>
+        <description><![CDATA[<p>This is an AMA show with live questions from the #jsparty Slack channel. We cover everything from BasicAttentionToken, Robotics, Microsoft, IDE's, and other fun stuff.</p>
+
+  <p>Sponsors</p>
+  <ul>
+    <li>
+      <a href="https://hired.com/changelog">Hired</a> – 
+Get hired. It's free — in fact, they pay you to get hired. Our listeners get a double hiring bonus of $600.
+    </li>
+    <li>
+      <a href="https://www.toptal.com/?utm_source=changelog&amp;utm_medium=podcast&amp;utm_campaign=changelog-sponsorship">Toptal</a> – 
+Freelance with top companies. Travel the world. Easily scale your team. Hire the top freelance software developers, designers, and finance experts. Email <code>adam@changelog.com</code> for a personal introduction.
+    </li>
+    <li>
+      <a href="http://jsparty.fm/sentry">Sentry</a> – 
+<strong>Get 30 days free</strong> when you sign up with the code <code>jsparty</code>. Error reporting and notifications for JavaScript apps and the rest of your stack. Start tracking errors for free. Support for React, Angular, Ember, Vue, Backbone, and Node frameworks like Express and Koa.
+    </li>
+  </ul>
+
+  <p>Featuring</p>
+  <ul>
+    <li>Mikeal Rogers &ndash; <a href="https://twitter.com/mikeal">Twitter</a>, <a href="https://github.com/mikeal">GitHub</a></li>
+    <li>Rachel White &ndash; <a href="https://twitter.com/ohhoe">Twitter</a>, <a href="https://github.com/rachelnicole">GitHub</a></li>
+    <li>Adam Stacoviak &ndash; <a href="https://twitter.com/adamstac">Twitter</a>, <a href="https://github.com/adamstac">GitHub</a>, <a href="http://adamstacoviak.com/">Website</a></li>
+  </ul>
+<p>Notes and Links</p>
+<ul>
+<li><a href="https://basicattentiontoken.org/">BasicAttentionToken</a> - A new token to value user attention on the internet.</li>
+<li><a href="https://coinmarketcap.com/assets/basic-attention-token/">Basic Attention Token (BAT)</a></li>
+<li><a href="http://www.coindesk.com/35-million-30-seconds-token-sale-internet-browser-brave-sells/">$35 Million in 30 Seconds: Token Sale for Internet Browser Brave Sells Out</a></li>
+<li><a href="https://changelog.com/gotime/49">Go Time #49: Adventures in VS Code with Ramya Rao</a></li>
+<li><a href="https://changelog.com/rfc/11">Request For Commits #11: Funding the Web with Brendan Eich</a></li>
+<li><a href="http://johnny-five.io/">Johnny-Five: The JavaScript Robotics &amp; IoT Platform</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=pflannery.vscode-versionlens">Version Lens</a> - Visual Studio Marketplace</li>
+<li><a href="https://draculatheme.com/">Dracula</a> (also discussed on <a href="https://changelog.com/podcast/248">The Changelog #248</a>) - a dark theme for Atom, Alfred, Brackets, Emacs, iTerm, Mintty, Notepad++, Slack, Sequel Pro, Sublime Text, Telegram, Textmate, Terminal.app, Ulysses, Vim, Visual Studio Code, Wox, Xcode, and Zsh</li>
+<li><a href="https://www.microsoft.com/en-us/surface/devices/surface-laptop/overview">Buy Surface Laptop</a></li>
+<li><a href="https://blog.heroku.com/rise-of-kotlin">On the Rise of Kotlin</a></li>
+</ul>
+]]></description>
+
+        <enclosure url="https://cdn.changelog.com/uploads/jsparty/17/js-party-17.mp3" length="80718833" type="audio/mpeg" />
+        <itunes:author>Mikeal Rogers, Rachel White, and Adam Stacoviak</itunes:author>
+        <itunes:image href="https://cdn.changelog.com/uploads/covers/js-party-original.png?v=63688781367"/>
+        <itunes:duration>55:52</itunes:duration>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:keywords>javascript, html, web, programming, frontend, backend, node, changelog, css, animation, iot, robotics</itunes:keywords>
+        <itunes:subtitle>AMA — BasicAttentionToken, Robotics, IDE&#39;s and Stuff</itunes:subtitle>
+        <itunes:summary>This is an AMA show with live questions from the #jsparty Slack channel. We cover everything from BasicAttentionToken, Robotics, Microsoft, IDE's, and other fun stuff. </itunes:summary>
+      </item>
+      <item>
+        <title>16: ES Modules and ESM Loader with John-David Dalton</title>
+        <link>https://changelog.com/jsparty/16</link>
+        <guid isPermaLink="false">changelog.com/6/416</guid>
+        <pubDate>Wed, 26 Jul 2017 19:00:00 +0000</pubDate>
+        <dc:creator>Mikeal Rogers and Alex Sexton</dc:creator>
+        <description><![CDATA[<p>Mikeal Rogers, Alex Sexton, and John-David Dalton talk about ES Modules history and current status, and JDD's ESM loader.</p>
+
+  <p>Sponsors</p>
+  <ul>
+    <li>
+      <a href="https://hired.com/changelog">Hired</a> – 
+Get hired. It's free — in fact, they pay you to get hired. Our listeners get a double hiring bonus of $600.
+    </li>
+    <li>
+      <a href="https://www.toptal.com/javascript?utm_source=changelog&amp;utm_medium=podcast&amp;utm_campaign=changelog-sponsorship">Toptal</a> – 
+Freelance with top companies. Travel the world. Easily scale your team. Hire the top freelance software developers, designers, and finance experts. Email <code>adam@changelog.com</code> for a personal introduction.
+    </li>
+    <li>
+      <a href="http://jsparty.fm/sentry">Sentry</a> – 
+<strong>Get 30 days free</strong> when you sign up with the code <code>jsparty</code>. Error reporting and notifications for JavaScript apps and the rest of your stack. Start tracking errors for free. Support for React, Angular, Ember, Vue, Backbone, and Node frameworks like Express and Koa.
+    </li>
+    <li>
+      <a href="https://linode.com/changelog">Linode</a> – 
+<strong>Our cloud server of choice.</strong> Get one of the fastest, most efficient SSD cloud servers for only $5/mo. Use the code <code>changelog2017</code> to get 4 months free!
+    </li>
+  </ul>
+
+  <p>Featuring</p>
+  <ul>
+    <li>John-David Dalton &ndash; <a href="https://twitter.com/jdalton">Twitter</a>, <a href="https://github.com/jdalton">GitHub</a>, <a href="https://lodash.com/">Website</a></li>
+    <li>Mikeal Rogers &ndash; <a href="https://twitter.com/mikeal">Twitter</a>, <a href="https://github.com/mikeal">GitHub</a></li>
+    <li>Alex Sexton &ndash; <a href="https://twitter.com/SlexAxton">Twitter</a>, <a href="https://github.com/SlexAxton">GitHub</a>, <a href="https://alexsexton.com">Website</a></li>
+  </ul>
+<p>Notes and Links</p>
+<ul>
+<li><a href="https://github.com/standard-things/esm">standard-things/esm</a></li>
+<li><a href="https://github.com/lodash/lodash">lodash/lodash</a></li>
+</ul>
+]]></description>
+
+        <enclosure url="https://cdn.changelog.com/uploads/jsparty/16/js-party-16.mp3" length="100270685" type="audio/mpeg" />
+        <itunes:author>Mikeal Rogers and Alex Sexton</itunes:author>
+        <itunes:image href="https://cdn.changelog.com/uploads/covers/js-party-original.png?v=63688781367"/>
+        <itunes:duration>1:09:28</itunes:duration>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:keywords>javascript, html, web, programming, frontend, backend, node, changelog, css, animation, iot, robotics</itunes:keywords>
+        <itunes:subtitle>ES Modules and ESM Loader</itunes:subtitle>
+        <itunes:summary>Mikeal Rogers, Alex Sexton, and John-David Dalton talk about ES Modules history and current status, and JDD's ESM loader. </itunes:summary>
+      </item>
+      <item>
+        <title>15: Async Control Flow and Threats to the Open Web with Kyle Simpson</title>
+        <link>https://changelog.com/jsparty/15</link>
+        <guid isPermaLink="false">changelog.com/6/413</guid>
+        <pubDate>Fri, 07 Jul 2017 19:00:00 +0000</pubDate>
+        <dc:creator>Mikeal Rogers and Alex Sexton</dc:creator>
+        <description><![CDATA[<p>Mikeal Rogers, Alex Sexton, and Kyle Simpson talk about Async Control Flow and Threats to the Open Web, plus our project of the week Blake2b-WASM.</p>
+
+  <p>Sponsors</p>
+  <ul>
+    <li>
+      <a href="http://jsparty.fm/sentry">Sentry</a> – 
+<strong>Get 30 days free</strong> when you sign up with the code <code>jsparty</code>. Error reporting and notifications for JavaScript apps and the rest of your stack. Start tracking errors for free. Support for React, Angular, Ember, Vue, Backbone, and Node frameworks like Express and Koa.
+    </li>
+    <li>
+      <a href="https://www.toptal.com/javascript?utm_source=changelog&amp;utm_medium=podcast&amp;utm_campaign=changelog-sponsorship">Toptal</a> – 
+Easily scale your team — hire the top freelance software developers, designers, and finance experts with Toptal. Email <code>adam@changelog.com</code> for a personal introduction.
+    </li>
+  </ul>
+
+  <p>Featuring</p>
+  <ul>
+    <li>Kyle Simpson &ndash; <a href="https://twitter.com/getify">Twitter</a>, <a href="https://github.com/getify">GitHub</a></li>
+    <li>Mikeal Rogers &ndash; <a href="https://twitter.com/mikeal">Twitter</a>, <a href="https://github.com/mikeal">GitHub</a></li>
+    <li>Alex Sexton &ndash; <a href="https://twitter.com/SlexAxton">Twitter</a>, <a href="https://github.com/SlexAxton">GitHub</a>, <a href="https://alexsexton.com">Website</a></li>
+  </ul>
+<p>Notes and Links</p>
+<ul>
+<li><a href="https://github.com/getify/You-Dont-Know-JS/blob/master/es6%20%26%20beyond/ch4.md">Chapter 4: Async Flow Control</a> from <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/es6%20&amp;%20beyond/README.md#you-dont-know-js-es6--beyond">You Don't Know JS: ES6 &amp; Beyond</a> by Kyle Simpson</li>
+<li><a href="https://kaye.us/javascript-async-control-flow/">Javascript Async Control Flow</a></li>
+<li><a href="https://medium.com/javascript-scene/the-hidden-power-of-es6-generators-observable-async-flow-control-cfa4c7f31435">The Hidden Power of ES6 Generators: Observable Async Flow Control</a></li>
+<li><a href="https://conferences.oreilly.com/fluent/fl-ca">Fluent Conference</a></li>
+<li><a href="https://github.com/mafintosh/blake2b-wasm">mafintosh/blake2b-wasm</a></li>
+</ul>
+]]></description>
+
+        <enclosure url="https://cdn.changelog.com/uploads/jsparty/15/js-party-15.mp3" length="102041029" type="audio/mpeg" />
+        <itunes:author>Mikeal Rogers and Alex Sexton</itunes:author>
+        <itunes:image href="https://cdn.changelog.com/uploads/covers/js-party-original.png?v=63688781367"/>
+        <itunes:duration>1:10:42</itunes:duration>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:keywords>javascript, html, web, programming, frontend, backend, node, changelog, css, animation, iot, robotics</itunes:keywords>
+        <itunes:subtitle>Async Control Flow and Threats to the Open Web</itunes:subtitle>
+        <itunes:summary>Mikeal Rogers, Alex Sexton, and Kyle Simpson talk about Async Control Flow and Threats to the Open Web, plus our project of the week Blake2b-WASM. </itunes:summary>
+      </item>
+      <item>
+        <title>14: Inside Node 8, Glitch, and Building a Community Around Education with James Snell</title>
+        <link>https://changelog.com/jsparty/14</link>
+        <guid isPermaLink="false">changelog.com/6/411</guid>
+        <pubDate>Fri, 23 Jun 2017 21:00:00 +0000</pubDate>
+        <dc:creator>Mikeal Rogers, Alex Sexton, and Jessica Lord</dc:creator>
+        <description><![CDATA[<p>Mikeal Rogers, Alex Sexton, and Jessica Lord talk with James Snell (Node.js TSC Director) about the release of Node.js version 8. Then, in the second half of the show, we discuss Glitch and their new &quot;raise your hand&quot; feature and building a community around education. Our project of the week is Tad!</p>
+
+  <p>Sponsors</p>
+  <ul>
+    <li>
+      <a href="http://jsparty.fm/sentry">Sentry</a> – 
+<strong>Get 30 days free</strong> when you sign up with the code <code>jsparty</code>. Error reporting and notifications for JavaScript apps and the rest of your stack. Start tracking errors for free. Support for React, Angular, Ember, Vue, Backbone, and Node frameworks like Express and Koa.
+    </li>
+    <li>
+      <a href="https://www.toptal.com/javascript?utm_source=changelog&amp;utm_medium=podcast&amp;utm_campaign=changelog-sponsorship">Toptal</a> – 
+Hire the top freelance software developers, designers, and finance experts with Toptal. Email <code>adam@changelog.com</code> for a personal introduction.
+    </li>
+    <li>
+      <a href="https://linode.com/changelog">Linode</a> – 
+<strong>Our cloud server of choice.</strong> Get one of the fastest, most efficient SSD cloud servers for only $5/mo. Use the code <code>changelog2017</code> to get 4 months free!
+    </li>
+    <li>
+      <a href="https://www.fastly.com/?utm_source=changelog&amp;utm_medium=podcast&amp;utm_campaign=changelog-sponsorship">Fastly</a> – 
+<strong>Our bandwidth partner.</strong> Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform.
+    </li>
+  </ul>
+
+  <p>Featuring</p>
+  <ul>
+    <li>James Snell &ndash; <a href="https://twitter.com/jasnell">Twitter</a>, <a href="https://github.com/jasnell">GitHub</a>, <a href="http://www.chmod777self.com/">Website</a></li>
+    <li>Mikeal Rogers &ndash; <a href="https://twitter.com/mikeal">Twitter</a>, <a href="https://github.com/mikeal">GitHub</a></li>
+    <li>Alex Sexton &ndash; <a href="https://twitter.com/SlexAxton">Twitter</a>, <a href="https://github.com/SlexAxton">GitHub</a>, <a href="https://alexsexton.com">Website</a></li>
+    <li>Jessica Lord &ndash; <a href="https://twitter.com/jllord">Twitter</a>, <a href="https://github.com/jlord">GitHub</a>, <a href="http://jlord.us/">Website</a></li>
+  </ul>
+<p>Notes and Links</p>
+<h3>Node v8.0.0</h3>
+<ul>
+<li><a href="https://nodejs.org/en/blog/release/v8.0.0/">Node v8.0.0 (Current)</a></li>
+<li><a href="https://medium.com/@treyhuffine/whats-new-in-node-8-e1cce6539a71">What’s New in Node 8</a></li>
+<li><a href="https://medium.com/the-node-js-collection/node-js-8-big-improvements-for-the-debugging-and-native-module-ecosystem-58454861f2fc">Node.js 8: Big Improvements for the Debugging and Native Module Ecosystem</a></li>
+<li><a href="https://hackernoon.com/upgrading-from-node-6-to-node-8-a-real-world-performance-comparison-3dfe1fbc92a3">Upgrading from Node 6 to Node 8: a real-world performance comparison</a></li>
+<li><a href="https://nodesource.com/blog/node-js-8-the-first-week/">Node.js 8: The First Week</a></li>
+</ul>
+<h3>Glitch - &quot;raise your hand&quot; feature</h3>
+<ul>
+<li><a href="https://medium.com/glitch/just-raise-your-hand-how-glitch-helps-aa6564cb1685">Just raise your hand: How Glitch helps</a></li>
+</ul>
+<h3>Project of the Week</h3>
+<ul>
+<li><a href="http://tadviewer.com/">Tad </a></li>
+</ul>
+]]></description>
+
+        <enclosure url="https://cdn.changelog.com/uploads/jsparty/14/js-party-14.mp3" length="67189748" type="audio/mpeg" />
+        <itunes:author>Mikeal Rogers, Alex Sexton, and Jessica Lord</itunes:author>
+        <itunes:image href="https://cdn.changelog.com/uploads/covers/js-party-original.png?v=63688781367"/>
+        <itunes:duration>46:27</itunes:duration>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:keywords>javascript, html, web, programming, frontend, backend, node, changelog, css, animation, iot, robotics</itunes:keywords>
+        <itunes:subtitle>Inside Node 8, Glitch, and Building a Community Around Education</itunes:subtitle>
+        <itunes:summary>Mikeal Rogers, Alex Sexton, and Jessica Lord talk with James Snell (Node.js TSC Director) about the release of Node.js version 8. Then, in the second half of the show, we discuss Glitch and their new "raise your hand" feature and building a community around education. Our project of the week is Tad! </itunes:summary>
+      </item>
+      <item>
+        <title>13: Inside the Release of npm@5 and Sheetsee</title>
+        <link>https://changelog.com/jsparty/13</link>
+        <guid isPermaLink="false">changelog.com/6/409</guid>
+        <pubDate>Tue, 13 Jun 2017 19:00:00 +0000</pubDate>
+        <dc:creator>Mikeal Rogers, Rachel White, and Alex Sexton</dc:creator>
+        <description><![CDATA[<p>Mikeal Rogers, Rachel White, and Alex Sexton talk with Rebecca Turner and Kat Marchán about npm@5 and Jessica Lord about Sheetsee.</p>
+
+  <p>Sponsors</p>
+  <ul>
+    <li>
+      <a href="http://jsparty.fm/sentry">Sentry</a> – 
+<strong>Get 30 days free</strong> when you sign up with the code <code>changelog</code>. Error reporting and notifications for JavaScript apps and the rest of your stack. Start tracking errors for free. Support for React, Angular, Ember, Vue, Backbone, and Node frameworks like Express and Koa.
+    </li>
+    <li>
+      <a href="https://hired.com/jsparty">Hired</a> – 
+Get hired. It's free — in fact, they pay you to get hired. Our listeners get a double hiring bonus of $600.
+    </li>
+    <li>
+      <a href="https://linode.com/changelog">Linode</a> – 
+<strong>Our cloud server of choice.</strong> Get one of the fastest, most efficient SSD cloud servers for only $5/mo. Use the code <code>changelog2017</code> to get 4 months free!
+    </li>
+    <li>
+      <a href="https://www.fastly.com/?utm_source=changelog&amp;utm_medium=podcast&amp;utm_campaign=changelog-sponsorship">Fastly</a> – 
+<strong>Our bandwidth partner!</strong> Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform.
+    </li>
+  </ul>
+
+  <p>Featuring</p>
+  <ul>
+    <li>Rebecca Turner &ndash; <a href="https://twitter.com/ReBeccaOrg">Twitter</a>, <a href="https://github.com/iarna">GitHub</a>, <a href="https://re-becca.org">Website</a></li>
+    <li>Kat Marchán &ndash; <a href="https://twitter.com/maybekatz">Twitter</a>, <a href="https://github.com/zkat">GitHub</a></li>
+    <li>Jessica Lord &ndash; <a href="https://twitter.com/jllord">Twitter</a>, <a href="https://github.com/jlord">GitHub</a>, <a href="http://jlord.us/">Website</a></li>
+    <li>Mikeal Rogers &ndash; <a href="https://twitter.com/mikeal">Twitter</a>, <a href="https://github.com/mikeal">GitHub</a></li>
+    <li>Rachel White &ndash; <a href="https://twitter.com/ohhoe">Twitter</a>, <a href="https://github.com/rachelnicole">GitHub</a></li>
+    <li>Alex Sexton &ndash; <a href="https://twitter.com/SlexAxton">Twitter</a>, <a href="https://github.com/SlexAxton">GitHub</a>, <a href="https://alexsexton.com">Website</a></li>
+  </ul>
+<p>Notes and Links</p>
+<h3>npm@5</h3>
+<ul>
+<li><a href="http://blog.npmjs.org/post/161081169345/v500">npm v5.0.0</a></li>
+<li>cacache<a href="https://www.npmjs.com/package/cacache"></a> - a Node.js library for managing local key and content address caches. It's really fast.</li>
+</ul>
+<h3>Sheetsee</h3>
+<ul>
+<li><a href="http://jlord.us/sheetsee.js/">Sheetsee</a> - a client-side library for connecting Google Spreadsheets to a website and visualizing the information in tables and maps.</li>
+<li><a href="https://sheetsee.glitch.me/">Sheetsee on Glitch</a> - a sample Sheetsee site with data backup</li>
+</ul>
+<h3>Picks!</h3>
+<ul>
+<li><a href="https://github.com/chaosbot/chaos">chaosbot/chaos</a> - a social coding experiment that updates its own code democratically.</li>
+<li><a href="https://github.com/babel/babili">babel/babili</a> - ES6+ aware minifier based on the Babel toolchain.</li>
+<li><a href="https://github.com/zeit/pkg">zeit/pkg</a> - package your Node.js project into an executabl</li>
+<li><a href="https://watabou.itch.io/medieval-fantasy-city-generator">Medieval Fantasy City Generator</a></li>
+</ul>
+]]></description>
+
+        <enclosure url="https://cdn.changelog.com/uploads/jsparty/13/js-party-13.mp3" length="79322839" type="audio/mpeg" />
+        <itunes:author>Mikeal Rogers, Rachel White, and Alex Sexton</itunes:author>
+        <itunes:image href="https://cdn.changelog.com/uploads/covers/js-party-original.png?v=63688781367"/>
+        <itunes:duration>54:54</itunes:duration>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:keywords>javascript, html, web, programming, frontend, backend, node, changelog, css, animation, iot, robotics</itunes:keywords>
+        <itunes:subtitle>Inside the Release of npm@5 and Sheetsee</itunes:subtitle>
+        <itunes:summary>Mikeal Rogers, Rachel White, and Alex Sexton talk with Rebecca Turner and Kat Marchán about npm@5 and Jessica Lord about Sheetsee. </itunes:summary>
+      </item>
+      <item>
+        <title>12: Using ES6/7, create-react-app, and Electron!</title>
+        <link>https://changelog.com/jsparty/12</link>
+        <guid isPermaLink="false">changelog.com/6/405</guid>
+        <pubDate>Thu, 01 Jun 2017 13:30:00 +0000</pubDate>
+        <dc:creator>Mikeal Rogers, Rachel White, and Alex Sexton</dc:creator>
+        <description><![CDATA[<p>Mikeal Rogers, Rachel White, and Alex Sexton discuss how they're using ES6/7 with and without a compiler, updates to create-react-app, and the beloved Electron.</p>
+
+  <p>Sponsors</p>
+  <ul>
+    <li>
+      <a href="http://jsparty.fm/sentry">Sentry</a> – 
+<strong>Get 30 days free</strong> when you sign up with the code <code>jsparty</code>. Error reporting and notifications for JavaScript apps and the rest of your stack. Start tracking errors for free. Support for React, Angular, Ember, Vue, Backbone, and Node frameworks like Express and Koa.
+    </li>
+    <li>
+      <a href="https://toptal.com/?utm_source=changelog&amp;utm_medium=podcast&amp;utm_campaign=changelog-sponsorship">Toptal</a> – 
+Hire the top freelance software developers, designers, and finance experts with Toptal. Email <code>adam@changelog.com</code> for a personal introduction.
+    </li>
+    <li>
+      <a href="https://linode.com/changelog">Linode</a> – 
+<strong>Our cloud server of choice.</strong> Get one of the fastest, most efficient SSD cloud servers for only $5/mo. Use the code <code>changelog2017</code> to get 4 months free!
+    </li>
+    <li>
+      <a href="https://www.fastly.com/?utm_source=changelog&amp;utm_medium=podcast&amp;utm_campaign=changelog-sponsorship">Fastly</a> – 
+<strong>Our bandwidth partner!</strong> Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform.
+    </li>
+  </ul>
+
+  <p>Featuring</p>
+  <ul>
+    <li>Mikeal Rogers &ndash; <a href="https://twitter.com/mikeal">Twitter</a>, <a href="https://github.com/mikeal">GitHub</a></li>
+    <li>Rachel White &ndash; <a href="https://twitter.com/ohhoe">Twitter</a>, <a href="https://github.com/rachelnicole">GitHub</a></li>
+    <li>Alex Sexton &ndash; <a href="https://twitter.com/SlexAxton">Twitter</a>, <a href="https://github.com/SlexAxton">GitHub</a>, <a href="https://alexsexton.com">Website</a></li>
+  </ul>
+<p>Notes and Links</p>
+<h3>Topics</h3>
+<ul>
+<li>Using new JavaScript language features in ES6 and ES7 with and without a compiler</li>
+<li>Updates to <a href="https://github.com/facebookincubator/create-react-app">create-react-app</a></li>
+<li><a href="https://electron.atom.io/">Electron</a> - Build cross platform desktop apps with JavaScript, HTML, and CSS</li>
+</ul>
+<h3>Picks</h3>
+<ul>
+<li><a href="https://medium.com/webpack/webpack-2-and-beyond-40520af9067f">Webpack 2</a> (Alex Sexton)</li>
+<li><a href="https://www.youtube.com/watch?v=Wo0qiGPSV-s">Immutable data structures for functional JS by Anjana Vakil at JSConf EU 2017</a> (Rachel White)</li>
+<li><a href="https://en.wikipedia.org/wiki/Hackers:_Heroes_of_the_Computer_Revolution">(Book) Hackers: Heroes of the Computer Revolution</a> (Mikeal Rogers)</li>
+</ul>
+]]></description>
+
+        <enclosure url="https://cdn.changelog.com/uploads/jsparty/12/js-party-12.mp3" length="93982512" type="audio/mpeg" />
+        <itunes:author>Mikeal Rogers, Rachel White, and Alex Sexton</itunes:author>
+        <itunes:image href="https://cdn.changelog.com/uploads/covers/js-party-original.png?v=63688781367"/>
+        <itunes:duration>1:05:05</itunes:duration>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:keywords>javascript, html, web, programming, frontend, backend, node, changelog, css, animation, iot, robotics</itunes:keywords>
+        <itunes:subtitle>Using ES6/7, create-react-app, and Electron!</itunes:subtitle>
+        <itunes:summary>Mikeal Rogers, Rachel White, and Alex Sexton discuss how they're using ES6/7 with and without a compiler, updates to create-react-app, and the beloved Electron. </itunes:summary>
+      </item>
+      <item>
+        <title>11: Web Standards, ECMAScript Modules in Browsers, and Learning JS</title>
+        <link>https://changelog.com/jsparty/11</link>
+        <guid isPermaLink="false">changelog.com/6/404</guid>
+        <pubDate>Fri, 26 May 2017 19:00:00 +0000</pubDate>
+        <dc:creator>Alex Sexton</dc:creator>
+        <description><![CDATA[<p>Wes Bos and Mike Taylor joined Alex Sexton this week to talk about Web Standards stuff, compileTo CSS libraries, ECMAScript Modules in Browsers, and Learning JS.</p>
+
+  <p>Sponsors</p>
+  <ul>
+    <li>
+      <a href="http://jsparty.fm/sentry">Sentry</a> – 
+<strong>Get 30 days free</strong> when you sign up with the code <code>jsparty</code>. Error reporting and notifications for JavaScript apps and the rest of your stack. Start tracking errors for free. Support for React, Angular, Ember, Vue, Backbone, and Node frameworks like Express and Koa.
+    </li>
+    <li>
+      <a href="https://toptal.com/?utm_source=changelog&amp;utm_medium=podcast&amp;utm_campaign=changelog-sponsorship">Toptal</a> – 
+Hire the best freelance developers and designers with Toptal. Email <code>adam@changelog.com</code> for a personal introduction.
+    </li>
+  </ul>
+
+  <p>Featuring</p>
+  <ul>
+    <li>Wes Bos &ndash; <a href="https://twitter.com/wesbos">Twitter</a>, <a href="https://github.com/wesbos">GitHub</a>, <a href="http://wesbos.com/">Website</a></li>
+    <li>Mike Taylor &ndash; <a href="https://twitter.com/miketaylr">Twitter</a>, <a href="https://github.com/miketaylr">GitHub</a>, <a href="https://miketaylr.com/">Website</a></li>
+    <li>Alex Sexton &ndash; <a href="https://twitter.com/SlexAxton">Twitter</a>, <a href="https://github.com/SlexAxton">GitHub</a>, <a href="https://alexsexton.com">Website</a></li>
+  </ul>
+<p>Notes and Links</p>
+<ul>
+<li><a href="https://jakearchibald.com/2017/es-modules-in-browsers/">ECMAScript Modules in Browsers</a></li>
+<li><a href="http://wesbos.com/">Wes Bos tutorials</a></li>
+<li><a href="https://interfacelovers.com/">Interface Lovers</a></li>
+<li><a href="https://github.com/prettier/prettier">Prettier</a></li>
+<li><a href="https://chrome.google.com/webstore/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj">Node.js V8 --inspector Manager</a></li>
+</ul>
+]]></description>
+
+        <enclosure url="https://cdn.changelog.com/uploads/jsparty/11/js-party-11.mp3" length="91801545" type="audio/mpeg" />
+        <itunes:author>Alex Sexton</itunes:author>
+        <itunes:image href="https://cdn.changelog.com/uploads/covers/js-party-original.png?v=63688781367"/>
+        <itunes:duration>1:03:34</itunes:duration>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:keywords>javascript, html, web, programming, frontend, backend, node, changelog, css, animation, iot, robotics</itunes:keywords>
+        <itunes:subtitle>Web Standards, ECMAScript Modules in Browsers, and Learning JS</itunes:subtitle>
+        <itunes:summary>Wes Bos and Mike Taylor joined Alex Sexton this week to talk about Web Standards stuff, compileTo CSS libraries, ECMAScript Modules in Browsers, and Learning JS. </itunes:summary>
+      </item>
+      <item>
+        <title>10: yayQuery Reunion!</title>
+        <link>https://changelog.com/jsparty/10</link>
+        <guid isPermaLink="false">changelog.com/6/394</guid>
+        <pubDate>Tue, 02 May 2017 13:00:00 +0000</pubDate>
+        <dc:creator>Alex Sexton, Paul Irish, Rebecca Murphey, and Adam Sontag</dc:creator>
+        <description><![CDATA[<p>In this special episode, it's a yayQuery podcast reunion. Alex Sexton, Paul Irish, Rebecca Murphey, and Adam Sontag are back for a takeover episode here on JS Party where they catch up on the latest happenings in JavaScript, share JavaScript predictions, thoughts on TypeScript, React, PWAs, and more.</p>
+
+  <p>Sponsors</p>
+  <ul>
+    <li>
+      <a href="http://jsparty.fm/sentry">Sentry</a> – 
+<strong>Get 30 days free</strong> when you sign up with the code <code>jsparty</code>. Error reporting and notifications for JavaScript apps and the rest of your stack. Start tracking errors for free. Support for React, Angular, Ember, Vue, Backbone, and Node frameworks like Express and Koa.
+    </li>
+    <li>
+      <a href="https://toptal.com?utm_source=changelog&amp;utm_medium=podcast&amp;utm_campaign=changelog-sponsorship">Toptal</a> – 
+Hire the best freelance developers and designers with Toptal. Email <code>adam@changelog.com</code> for a personal introduction.
+    </li>
+  </ul>
+
+  <p>Featuring</p>
+  <ul>
+    <li>Alex Sexton &ndash; <a href="https://twitter.com/SlexAxton">Twitter</a>, <a href="https://github.com/SlexAxton">GitHub</a>, <a href="https://alexsexton.com">Website</a></li>
+    <li>Paul Irish &ndash; <a href="https://twitter.com/paul_irish">Twitter</a>, <a href="https://github.com/paulirish">GitHub</a>, <a href="https://www.paulirish.com/">Website</a></li>
+    <li>Rebecca Murphey &ndash; <a href="https://twitter.com/rmurphey">Twitter</a>, <a href="https://github.com/rmurphey">GitHub</a>, <a href="https://rmurphey.com/">Website</a></li>
+    <li>Adam Sontag &ndash; <a href="https://twitter.com/ajpiano">Twitter</a>, <a href="https://github.com/ajpiano">GitHub</a>, <a href="http://ajpiano.com/">Website</a></li>
+  </ul>
+<p>Notes and Links</p>
+<p>** If we missed any links <a href="https://github.com/thechangelog/ping">let us know</a>.</p>
+<ul>
+<li><a href="http://yayquery.com/">yayQuery podcast</a></li>
+<li><a href="https://jonneal.bandcamp.com/">Buy the yayQuery soundtrack on Bandcamp</a></li>
+<li><a href="https://developers.google.com/web/tools/lighthouse/">Lighthouse</a> — an open-source, automated tool for improving the quality of web pages. You can run it against any page on the web. It has audits for performance, accessibility, progressive web apps, and more.</li>
+<li><a href="https://egghead.io/courses/getting-started-with-redux">Getting Started with Redux</a> by Dan Abramov</li>
+<li><a href="https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367">You Might Not Need Redux</a> by Dan Abramov</li>
+<li><a href="http://www.w3fools.com/">W3Fools </a></li>
+<li><a href="https://jessekorzan.github.io/expodal/">The Most Explosive Modal on the Web</a></li>
+<li><a href="https://developers.google.com/web/ilt/pwa/">Progressive Web Apps Training</a></li>
+<li><a href="https://www.youtube.com/watch?v=_QEM9kdV-b0">Webpack: It's Not Magic</a></li>
+</ul>
+<h3>Picks</h3>
+<ul>
+<li><a href="http://shop.oreilly.com/product/0636920056843.do">The Manager's Path: A Guide for Tech Leaders Navigating Growth and Change</a> by Camille Fournier (Rebecca Murphey)</li>
+</ul>
+<p>Paul Irish shared this image as his pick.</p>
+<p><img src="http://changelog-assets.s3.amazonaws.com/http-return-code.jpg" alt="http-return-code.jpg" /></p>
+]]></description>
+
+        <enclosure url="https://cdn.changelog.com/uploads/jsparty/10/js-party-10.mp3" length="67840644" type="audio/mpeg" />
+        <itunes:author>Alex Sexton, Paul Irish, Rebecca Murphey, and Adam Sontag</itunes:author>
+        <itunes:image href="https://cdn.changelog.com/uploads/covers/js-party-original.png?v=63688781367"/>
+        <itunes:duration>1:10:25</itunes:duration>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:keywords>javascript, html, web, programming, frontend, backend, node, changelog, css, animation, iot, robotics</itunes:keywords>
+        <itunes:subtitle>yayQuery Reunion!</itunes:subtitle>
+        <itunes:summary>In this special episode, it's a yayQuery podcast reunion. Alex Sexton, Paul Irish, Rebecca Murphey, and Adam Sontag are back for a takeover episode here on JS Party where they catch up on the latest happenings in JavaScript, share JavaScript predictions, thoughts on TypeScript, React, PWAs, and more. </itunes:summary>
+      </item>
+      <item>
+        <title>9: P2P Web, WebRTC, WebTorrent, IPFS, and React VR</title>
+        <link>https://changelog.com/jsparty/9</link>
+        <guid isPermaLink="false">changelog.com/6/392</guid>
+        <pubDate>Tue, 25 Apr 2017 19:00:00 +0000</pubDate>
+        <dc:creator>Mikeal Rogers, Rachel White, and Alex Sexton</dc:creator>
+        <description><![CDATA[<p>Mikeal Rogers, Alex Sexton, and Rachel White discuss the P2P web — including WebRTC, WebTorrent, and IPFS. They also get into React and React VR and the project of the week, PouchDB.</p>
+
+  <p>Sponsors</p>
+  <ul>
+    <li>
+      <a href="http://jsparty.fm/sentry">Sentry</a> – 
+<strong>Get 30 days free</strong> when you sign up with the code <code>jsparty</code>. Error reporting and notifications for JavaScript apps and the rest of your stack. Start tracking errors for free. Support for React, Angular, Ember, Vue, Backbone, and Node frameworks like Express and Koa.
+    </li>
+    <li>
+      <a href="https://hired.com/jsparty">Hired</a> – 
+Get hired. It's free — in fact, they pay you to get hired. Our listeners get a double hiring bonus of $600.
+    </li>
+  </ul>
+
+  <p>Featuring</p>
+  <ul>
+    <li>Mikeal Rogers &ndash; <a href="https://twitter.com/mikeal">Twitter</a>, <a href="https://github.com/mikeal">GitHub</a></li>
+    <li>Rachel White &ndash; <a href="https://twitter.com/ohhoe">Twitter</a>, <a href="https://github.com/rachelnicole">GitHub</a></li>
+    <li>Alex Sexton &ndash; <a href="https://twitter.com/SlexAxton">Twitter</a>, <a href="https://github.com/SlexAxton">GitHub</a>, <a href="https://alexsexton.com">Website</a></li>
+  </ul>
+<p>Notes and Links</p>
+<h3>The P2P Web</h3>
+<ul>
+<li><a href="https://webrtc.org/">WebRTC</a></li>
+<li><a href="https://webtorrent.io/">WebTorrent</a></li>
+<li><a href="https://ipfs.io/">IPFS</a></li>
+<li><a href="https://changelog.com/podcast/160">The Changelog #160: Ampersand.js, SPAs, and WebRTC with Henrik Joreteg</a></li>
+<li><a href="https://changelog.com/podcast/227">The Changelog #227: Mad Science, WebTorrent, &amp; WebRTC with Feross Aboukhadijeh</a></li>
+</ul>
+<h3>React VR</h3>
+<ul>
+<li><a href="https://facebook.github.io/react-vr/">React VR</a> - Build VR websites and interactive 360 experiences with React</li>
+</ul>
+<h3>PouchDB</h3>
+<ul>
+<li><a href="https://pouchdb.com/">PouchDB</a> - the JavaScript Database that Syncs!</li>
+</ul>
+<h3>Picks!</h3>
+<ul>
+<li>Rachel: <a href="https://github.com/notwaldorf/tiny-care-terminal">tiny-care-terminal</a> - a little dashboard that tries to take care of you when you're using your terminal</li>
+<li>Alex: <a href="https://github.com/paulirish/pwmetrics">pwmetrics</a> - Progressive web metrics at your fingertipz</li>
+<li>Mikeal: <a href="https://changelog.com/rfc">Request For Commits</a> - Season 2 is coming soon!</li>
+</ul>
+]]></description>
+
+        <enclosure url="https://cdn.changelog.com/uploads/jsparty/9/js-party-9.mp3" length="88125658" type="audio/mpeg" />
+        <itunes:author>Mikeal Rogers, Rachel White, and Alex Sexton</itunes:author>
+        <itunes:image href="https://cdn.changelog.com/uploads/covers/js-party-original.png?v=63688781367"/>
+        <itunes:duration>1:01:01</itunes:duration>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:keywords>javascript, html, web, programming, frontend, backend, node, changelog, css, animation, iot, robotics</itunes:keywords>
+        <itunes:subtitle>P2P Web, WebRTC, WebTorrent, IPFS, and React VR</itunes:subtitle>
+        <itunes:summary>Mikeal Rogers, Alex Sexton, and Rachel White discuss the P2P web — including WebRTC, WebTorrent, and IPFS. They also get into React and React VR and the project of the week, PouchDB. </itunes:summary>
+      </item>
+      <item>
+        <title>8: Good Documentation, Non-blocking UI Rendering, and Node Community Updates with Tracy Hinds</title>
+        <link>https://changelog.com/jsparty/8</link>
+        <guid isPermaLink="false">changelog.com/6/389</guid>
+        <pubDate>Sun, 23 Apr 2017 05:30:00 +0000</pubDate>
+        <dc:creator>Rachel White and Alex Sexton</dc:creator>
+        <description><![CDATA[<p>Tracy Hinds, Alex Sexton, and Rachel White discuss good documentation, API docs, playbooks, Non-blocking UI Rendering, ember-concurrency, React Fiber and updates from Tracy on the Node.js Foundation and Node community.</p>
+
+  <p>Sponsors</p>
+  <ul>
+    <li>
+      <a href="http://jsparty.fm/sentry">Sentry</a> – 
+<strong>Get 30 days free</strong> when you sign up with the code <code>jsparty</code>. Error reporting and notifications for JavaScript apps and the rest of your stack. Start tracking errors for free. Support for React, Angular, Ember, Vue, Backbone, and Node frameworks like Express and Koa.
+    </li>
+    <li>
+      <a href="https://toptal.com?utm_source=changelog&amp;utm_medium=podcast&amp;utm_campaign=changelog-sponsorship">Toptal</a> – 
+Hire the best freelance developers and designers with Toptal. Email <code>adam@changelog.com</code> for a personal introduction.
+    </li>
+  </ul>
+
+  <p>Featuring</p>
+  <ul>
+    <li>Tracy Hinds &ndash; <a href="https://twitter.com/hackygolucky">Twitter</a>, <a href="https://github.com/hackygolucky">GitHub</a>, <a href="http://hackygolucky.com/">Website</a></li>
+    <li>Rachel White &ndash; <a href="https://twitter.com/ohhoe">Twitter</a>, <a href="https://github.com/rachelnicole">GitHub</a></li>
+    <li>Alex Sexton &ndash; <a href="https://twitter.com/SlexAxton">Twitter</a>, <a href="https://github.com/SlexAxton">GitHub</a>, <a href="https://alexsexton.com">Website</a></li>
+  </ul>
+<p>Notes and Links</p>
+<h2>Docs! What makes good documentation?</h2>
+<ul>
+<li>
+<p>Where are you sending your community if the docs aren't good (hint: you don't get to decide then)?</p>
+</li>
+<li>
+<p>How to's, getting started, API docs, playbooks</p>
+</li>
+<li>
+<p><a href="http://devdocs.io/">DevDocs </a></p>
+</li>
+<li>
+<p><a href="https://readthedocs.org/">Read the Docs</a></p>
+</li>
+<li>
+<p><a href="https://changelog.com/rfc/5">Request For Commits #5: Documentation and the Value of Non-Code Contributions with Eric Holscher</a></p>
+</li>
+<li>
+<p><a href="https://changelog.com/spotlight/7">Spotlight #7: Focused on a Safe and Inclusive Node Community with Tracy Hinds</a></p>
+</li>
+</ul>
+<h2>Non-blocking UI Rendering</h2>
+<ul>
+<li>Fastboot/isomorphic rendering</li>
+<li><a href="https://ember-concurrency.com/">ember-concurrency</a></li>
+<li><a href="https://techcrunch.com/2017/04/18/facebook-announces-react-fiber-a-rewrite-of-its-react-framework/">React Fiber</a></li>
+</ul>
+<h2>Node.js Community</h2>
+<ul>
+<li><a href="https://nodejs.org/en/foundation/">Node.js Foundation</a></li>
+<li><a href="https://medium.com/the-node-js-collection">Node.js Collection</a></li>
+<li><a href="https://medium.com/@nodejs">Node.js Foundation on Medium</a></li>
+</ul>
+<h2>Picks!</h2>
+<ul>
+<li>Alex: <a href="https://github.com/prettier">Prettier</a></li>
+<li>Rachel: <a href="https://increment.com/">increment.com</a></li>
+<li>Tracy: ...</li>
+</ul>
+]]></description>
+
+        <enclosure url="https://cdn.changelog.com/uploads/jsparty/8/js-party-8.mp3" length="77889349" type="audio/mpeg" />
+        <itunes:author>Rachel White and Alex Sexton</itunes:author>
+        <itunes:image href="https://cdn.changelog.com/uploads/covers/js-party-original.png?v=63688781367"/>
+        <itunes:duration>53:54</itunes:duration>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:keywords>javascript, html, web, programming, frontend, backend, node, changelog, css, animation, iot, robotics</itunes:keywords>
+        <itunes:subtitle>Good Documentation, Non-blocking UI Rendering, and Node Community Updates</itunes:subtitle>
+        <itunes:summary>Tracy Hinds, Alex Sexton, and Rachel White discuss good documentation, API docs, playbooks, Non-blocking UI Rendering, ember-concurrency, React Fiber and updates from Tracy on the Node.js Foundation and Node community. </itunes:summary>
+      </item>
+      <item>
+        <title>7: VM Neutrality in Node (N-API), Learning JavaScript, and Mastodon</title>
+        <link>https://changelog.com/jsparty/7</link>
+        <guid isPermaLink="false">changelog.com/6/384</guid>
+        <pubDate>Fri, 14 Apr 2017 19:00:00 +0000</pubDate>
+        <dc:creator>Mikeal Rogers, Rachel White, and Alex Sexton</dc:creator>
+        <description><![CDATA[<p>Mikeal Rogers, Alex Sexton, and Rachel White discuss VM Neutrality in Node.js, learning JavaScript, and Mastodon - the open source friendly alternative to Twitter, et al.</p>
+
+  <p>Sponsors</p>
+  <ul>
+    <li>
+      <a href="http://jsparty.fm/sentry">Sentry</a> – 
+<strong>Get 30 days free</strong> when you sign up with the code <code>jsparty</code>. Error reporting and notifications for JavaScript apps and the rest of your stack. Start tracking errors for free. Support for React, Angular, Ember, Vue, Backbone, and Node frameworks like Express and Koa.
+    </li>
+    <li>
+      <a href="https://toptal.com?utm_source=changelog&amp;utm_medium=podcast&amp;utm_campaign=changelog-sponsorship">Toptal</a> – 
+Hire the best freelance developers and designers with Toptal. Email <code>adam@changelog.com</code> for a personal introduction.
+    </li>
+  </ul>
+
+  <p>Featuring</p>
+  <ul>
+    <li>Mikeal Rogers &ndash; <a href="https://twitter.com/mikeal">Twitter</a>, <a href="https://github.com/mikeal">GitHub</a></li>
+    <li>Rachel White &ndash; <a href="https://twitter.com/ohhoe">Twitter</a>, <a href="https://github.com/rachelnicole">GitHub</a></li>
+    <li>Alex Sexton &ndash; <a href="https://twitter.com/SlexAxton">Twitter</a>, <a href="https://github.com/SlexAxton">GitHub</a>, <a href="https://alexsexton.com">Website</a></li>
+  </ul>
+<p>Notes and Links</p>
+<h2>VM Neutrality in Node.js</h2>
+<ul>
+<li><a href="https://github.com/nodejs/abi-stable-node">Node.js API (N-API)</a></li>
+<li><a href="https://github.com/bluesmoon/node-geoip">GeoIP-lite</a> - A native NodeJS API for the GeoLite data</li>
+<li><a href="https://changelog.com/gotime/37">Go Time #37: Gobot, Hardware, and Gatekeeping with Ron Evans</a></li>
+<li><a href="https://experience.realtimeconf.com/music/">Realtime Conf Soundtrack</a></li>
+</ul>
+<h2>Learning JavaScript</h2>
+<ul>
+<li><a href="https://javascript30.com/">javaScript 30</a> from Wes Bos — a 30 day Vanilla JavaScript coding challenge</li>
+<li><a href="https://changelog.com/podcast/244">The Changelog #244: Learning JavaScript and Bringing People Together with Tracy Lee</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics">JavaScript basics</a></li>
+<li><a href="https://github.com/rmurphey/js-assessment">JS Assessment</a> - a test-driven approach to assessing JS skills</li>
+<li><a href="https://changelog.com/podcast/180">Creating cheats for games to get into programming</a></li>
+</ul>
+<h2>Project of the Week</h2>
+<ul>
+<li><a href="https://mastodon.social/">Mastodon</a></li>
+<li><a href="https://github.com/tootsuite/mastodon">Mastodon instance for JavaScripters</a> from Nolan Lawson</li>
+<li><a href="https://instances.mastodon.xyz/">Mastodon instances</a></li>
+<li><a href="https://mastodon.social/about/more">Mastodon guidelines</a></li>
+</ul>
+<h2>Picks!</h2>
+<ul>
+<li>Rachel: - <a href="https://github.com/tootsuite/mastodon">Nolan Lawson's Mastodon</a></li>
+<li>Alex: <a href="https://keybase.io/">Keybase </a></li>
+<li>Mikeal: <a href="https://webtorrent.io/">WebTorrent</a> and <a href="https://changelog.com/podcast/227">The Changelog #227: Mad Science, WebTorrent, &amp; WebRTC with Feross Aboukhadijeh</a></li>
+</ul>
+]]></description>
+
+        <enclosure url="https://cdn.changelog.com/uploads/jsparty/7/js-party-7.mp3" length="84506143" type="audio/mpeg" />
+        <itunes:author>Mikeal Rogers, Rachel White, and Alex Sexton</itunes:author>
+        <itunes:image href="https://cdn.changelog.com/uploads/covers/js-party-original.png?v=63688781367"/>
+        <itunes:duration>58:30</itunes:duration>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:keywords>javascript, html, web, programming, frontend, backend, node, changelog, css, animation, iot, robotics</itunes:keywords>
+        <itunes:subtitle>VM Neutrality in Node.js (N-API), Learning JavaScript, and Mastodon</itunes:subtitle>
+        <itunes:summary>Mikeal Rogers, Alex Sexton, and Rachel White discuss VM Neutrality in Node.js, learning JavaScript, and Mastodon - the open source friendly alternative to Twitter, et al. </itunes:summary>
+      </item>
+      <item>
+        <title>6: Web Components and WTF is Shadow DOM?</title>
+        <link>https://changelog.com/jsparty/6</link>
+        <guid isPermaLink="false">changelog.com/6/382</guid>
+        <pubDate>Tue, 11 Apr 2017 17:00:00 +0000</pubDate>
+        <dc:creator>Mikeal Rogers, Rachel White, and Alex Sexton</dc:creator>
+        <description><![CDATA[<p>Mikeal Rogers, Alex Sexton, and Rachel White discuss Web Components and questions like — &quot;WTF is Shadow DOM?&quot; and &quot;Are custom elements ready?&quot; We also discuss the JavaScript conference scene as well as attending, speaking and organizing conferences. Plus, the project of the week — p5.js.</p>
+
+  <p>Sponsors</p>
+  <ul>
+    <li>
+      <a href="http://jsparty.fm/sentry">Sentry</a> – 
+<strong>Get 30 days free</strong> when you sign up with the code <code>jsparty</code>. Error reporting and notifications for JavaScript apps and the rest of your stack. Start tracking errors for free. Support for React, Angular, Ember, Vue, Backbone, and Node frameworks like Express and Koa.
+    </li>
+    <li>
+      <a href="https://toptal.com?utm_source=changelog&amp;utm_medium=podcast&amp;utm_campaign=changelog-sponsorship">Toptal</a> – 
+Hire the best freelance developers and designers with Toptal. Email <code>adam@changelog.com</code> for a personal introduction.
+    </li>
+  </ul>
+
+  <p>Featuring</p>
+  <ul>
+    <li>Mikeal Rogers &ndash; <a href="https://twitter.com/mikeal">Twitter</a>, <a href="https://github.com/mikeal">GitHub</a></li>
+    <li>Rachel White &ndash; <a href="https://twitter.com/ohhoe">Twitter</a>, <a href="https://github.com/rachelnicole">GitHub</a></li>
+    <li>Alex Sexton &ndash; <a href="https://twitter.com/SlexAxton">Twitter</a>, <a href="https://github.com/SlexAxton">GitHub</a>, <a href="https://alexsexton.com">Website</a></li>
+  </ul>
+<p>Notes and Links</p>
+<h2>Web Components and WTF is Shadow DOM?</h2>
+<p>In part 1 of the show we talked about Web Components and we discussed questions like — &quot;WTF is Shadow DOM?&quot; and &quot;Are custom elements ready?&quot;</p>
+<ul>
+<li><a href="https://developers.google.com/web/fundamentals/getting-started/primers/shadowdom">Shadow DOM v1: Self-Contained Web Components</a> by Eric Bidelman — Engineer @ Google working on Lighthouse, Web Components, Chrome, and the web</li>
+</ul>
+<h2>Conferences: Attending, Speaking, and Organizing</h2>
+<p>In part 2 of the show we talked about attending, speaking and organizing conferences.</p>
+<ul>
+<li><a href="http://thunderplainsconf.com/">Thunder Plains Conf</a></li>
+</ul>
+<h2>Project of the Week</h2>
+<ul>
+<li><a href="https://p5js.org/">p5.js</a></li>
+</ul>
+<h2>Picks!</h2>
+<ul>
+<li>Mikeal - <a href="http://slideless.org/">Slideless</a></li>
+<li>Alex - <a href="https://mikewest.org/">Mike West</a> ~ <a href="https://twitter.com/mikewest">@mikewest</a> + <a href="https://www.w3.org/2011/webappsec/">Web App Sec mailing list</a></li>
+<li>Rachel - <a href="https://sarahdrasnerdesign.com/">Sarah Drasner</a> and her new book <a href="https://www.amazon.com/SVG-Animations-Implementations-Responsive-Animation/dp/1491939702">SVG Animations: From Common UX Implementations to Complex Responsive Animation</a></li>
+</ul>
+]]></description>
+
+        <enclosure url="https://cdn.changelog.com/uploads/jsparty/6/js-party-6.mp3" length="82298214" type="audio/mpeg" />
+        <itunes:author>Mikeal Rogers, Rachel White, and Alex Sexton</itunes:author>
+        <itunes:image href="https://cdn.changelog.com/uploads/covers/js-party-original.png?v=63688781367"/>
+        <itunes:duration>56:58</itunes:duration>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:keywords>javascript, html, web, programming, frontend, backend, node, changelog, css, animation, iot, robotics</itunes:keywords>
+        <itunes:subtitle>Web Components and WTF is Shadow DOM?</itunes:subtitle>
+        <itunes:summary>Mikeal Rogers, Alex Sexton, and Rachel White discuss Web Components and questions like — "WTF is Shadow DOM?" and "Are custom elements ready?" We also discuss the JavaScript conference scene as well as attending, speaking and organizing conferences. Plus, the project of the week — p5.js. </itunes:summary>
+      </item>
+      <item>
+        <title>5: JavaScript in Latin America with Juan Pablo Buritica</title>
+        <link>https://changelog.com/jsparty/5</link>
+        <guid isPermaLink="false">changelog.com/6/380</guid>
+        <pubDate>Fri, 31 Mar 2017 17:45:00 +0000</pubDate>
+        <dc:creator>Mikeal Rogers and Alex Sexton</dc:creator>
+        <description><![CDATA[<p>Mikeal Rogers, Alex Sexton, and special guest Juan Pablo Buritica discuss all things JavaScript in Latin America. The conferences, the communities, the meetups, JavaScript tooling, and more.</p>
+
+  <p>Sponsors</p>
+  <ul>
+    <li>
+      <a href="https://sentry.io//?utm_source=changelog">Sentry</a> – 
+Error reporting and notifications for JavaScript apps and the rest of your stack. Start tracking errors for free. Support for React, Angular, Ember, Vue, Backbone, and Node frameworks like Express and Koa.
+    </li>
+    <li>
+      <a href="https://hired.com/changelog">Hired</a> – 
+Get hired. It's free — in fact, they pay you to get hired. Our listeners get a double hiring bonus of $600.
+    </li>
+  </ul>
+
+  <p>Featuring</p>
+  <ul>
+    <li>Juan Pablo Buritica &ndash; <a href="https://twitter.com/buritica">Twitter</a>, <a href="https://github.com/buritica">GitHub</a></li>
+    <li>Mikeal Rogers &ndash; <a href="https://twitter.com/mikeal">Twitter</a>, <a href="https://github.com/mikeal">GitHub</a></li>
+    <li>Alex Sexton &ndash; <a href="https://twitter.com/SlexAxton">Twitter</a>, <a href="https://github.com/SlexAxton">GitHub</a>, <a href="https://alexsexton.com">Website</a></li>
+  </ul>
+<p>Notes and Links</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=HWf-MHhVC3U">Hacking your Front-End Apps</a> by Alex Sexton at JSConf Colombia</li>
+<li>Check out <a href="http://jsconf.co/">JSConf Colombia</a> + their <a href="http://cfp.jsconf.co/">CFP is now open</a></li>
+<li>Ask Juan Pablo Buritica about his Empanada Fund</li>
+</ul>
+<h3>Project</h3>
+<ul>
+<li><a href="https://github.com/buritica/collaboration-guides">Guidelines for Effective Collaboration</a></li>
+</ul>
+<h3>Picks</h3>
+<ul>
+<li>Alex - CSS Grid — Check out the <a href="https://css-tricks.com/snippets/css/complete-guide-grid/">Complete Guide to CSS Grid</a> at CSS Tricks, <a href="http://gridbyexample.com/">Grid by Example</a> a collection of usage examples for the CSS Grid Layout specification, <a href="https://rachelandrew.co.uk/archives/2017/03/03/learning-css-grid-layout/">Learning CSS Grid Layout</a> by Rachel Andrew, and <a href="http://jensimmons.com/post/feb-27-2017/learn-css-grid">Learn CSS Grid</a> by Jen Simmons</li>
+<li>Mikeal - <a href="https://boingboing.net/2017/03/24/symantec-considered-harmful.html">Google Chrome will no longer trust Symantec certificates, 30% of the web will need to switch Certificate Authorities</a> and <a href="https://googleprojectzero.blogspot.com/">Attacking the Windows NVIDIA Driver</a></li>
+<li>Juan - <a href="https://zeit.co/blog/next">Next.js</a> and <a href="https://changelog.com/podcast/213">The Changelog #213: ZEIT, HyperTerm, and now with Guillermo Rauch</a></li>
+</ul>
+]]></description>
+
+        <enclosure url="https://cdn.changelog.com/uploads/jsparty/5/js-party-5.mp3" length="89445271" type="audio/mpeg" />
+        <itunes:author>Mikeal Rogers and Alex Sexton</itunes:author>
+        <itunes:image href="https://cdn.changelog.com/uploads/covers/js-party-original.png?v=63688781367"/>
+        <itunes:duration>1:01:56</itunes:duration>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:keywords>javascript, html, web, programming, frontend, backend, node, changelog, css, animation, iot, robotics</itunes:keywords>
+        <itunes:subtitle>JavaScript in Latin America</itunes:subtitle>
+        <itunes:summary>Mikeal Rogers, Alex Sexton, and special guest Juan Pablo Buritica discuss all things JavaScript in Latin America. The conferences, the communities, the meetups, JavaScript tooling, and more. </itunes:summary>
+      </item>
+      <item>
+        <title>4: PWAs (Progressive Web Apps), Service Workers, Time, and Glitch</title>
+        <link>https://changelog.com/jsparty/4</link>
+        <guid isPermaLink="false">changelog.com/6/375</guid>
+        <pubDate>Fri, 24 Mar 2017 17:00:00 +0000</pubDate>
+        <dc:creator>Mikeal Rogers, Rachel White, and Alex Sexton</dc:creator>
+        <description><![CDATA[<p>Mikeal Rogers, Alex Sexton, and Rachel White discuss PWAs (Progressive Web Apps), Service Workers, and Time in JavaScript. Jenn Schiffer also joined the show to talk about Glitch, our project of the week.</p>
+
+  <p>Sponsors</p>
+  <ul>
+    <li>
+      <a href="https://rollbar.com/changelog">Rollbar</a> – 
+Put errors in their place! <code>npm install --save rollbar</code> for error tracking in your Node.js apps.
+    </li>
+    <li>
+      <a href="https://hired.com/changelog">Hired</a> – 
+Get hired. It's free — in fact, they pay you to get hired. Our listeners get a double hiring bonus of $2,000.
+    </li>
+  </ul>
+
+  <p>Featuring</p>
+  <ul>
+    <li>Jenn Schiffer &ndash; <a href="https://twitter.com/jennschiffer">Twitter</a>, <a href="https://github.com/jennschiffer">GitHub</a></li>
+    <li>Mikeal Rogers &ndash; <a href="https://twitter.com/mikeal">Twitter</a>, <a href="https://github.com/mikeal">GitHub</a></li>
+    <li>Rachel White &ndash; <a href="https://twitter.com/ohhoe">Twitter</a>, <a href="https://github.com/rachelnicole">GitHub</a></li>
+    <li>Alex Sexton &ndash; <a href="https://twitter.com/SlexAxton">Twitter</a>, <a href="https://github.com/SlexAxton">GitHub</a>, <a href="https://alexsexton.com">Website</a></li>
+  </ul>
+<p>Notes and Links</p>
+<p>Prep notes for this show: <a href="https://github.com/thechangelog/jsparty/blob/master/shows/2017-03-17.md">https://github.com/thechangelog/jsparty/blob/master/shows/2017-03-17.md</a></p>
+<p>If you haven't yet, join the community and Slack with us in realtime in the #jsparty channel during the show. Head to <a href="https://changelog.com/community">https://changelog.com/community</a></p>
+<hr />
+<h3>PWAs (Progressive Web Apps)</h3>
+<p>Progressive Web Apps - <a href="https://developers.google.com/web/progressive-web-apps/">https://developers.google.com/web/progressive-web-apps/</a></p>
+<p>PWA Builder - <a href="http://preview.pwabuilder.com/">http://preview.pwabuilder.com/</a></p>
+<p>PWA Directory (a directory of Progressive Web Apps) - <a href="https://pwa-directory.appspot.com/">https://pwa-directory.appspot.com/</a></p>
+<p><a href="https://changelog.com/posts/essential-reading-list-for-getting-started-with-service-workers">Essential Reading List for Getting Started With Service Workers</a></p>
+<h3>Time</h3>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date">MDN / Date</a></li>
+<li><a href="https://momentjs.com/">Moment.js</a></li>
+</ul>
+<h3>Talking with Jenn Schiffer about Glitch</h3>
+<ul>
+<li><a href="https://glitch.com/">Glitch</a></li>
+<li><a href="https://glitch.com/foryourapi">Glitch For Your API</a> - From zero to working code in one minute</li>
+<li><a href="https://github.com/squeejee/remixr">Best Buy Remix API</a></li>
+</ul>
+<h3>Picks</h3>
+<ul>
+<li>Mikeal Rogers: <a href="http://www.wildfermentation.com/wild-fermentation/">ild Fermentation</a></li>
+<li>Rachel White: <a href="https://github.com/poteto/hiring-without-whiteboards">Hiring Without Whiteboards</a> - Companies that don't have a broken hiring process</li>
+<li>Jenn Schiffer: Greek Yogurt, <a href="https://twitter.com/Alex_jonsie/status/826124303175471105">this tweet</a>, and <a href="https://blog.jquery.com/2017/03/16/jquery-3-2-0-is-out/">jQuery 3.2.0</a></li>
+</ul>
+]]></description>
+
+        <enclosure url="https://cdn.changelog.com/uploads/jsparty/4/js-party-4.mp3" length="59692067" type="audio/mpeg" />
+        <itunes:author>Mikeal Rogers, Rachel White, and Alex Sexton</itunes:author>
+        <itunes:image href="https://cdn.changelog.com/uploads/covers/js-party-original.png?v=63688781367"/>
+        <itunes:duration>1:01:55</itunes:duration>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:keywords>javascript, html, web, programming, frontend, backend, node, changelog, css, animation, iot, robotics</itunes:keywords>
+        <itunes:subtitle>PWAs (Progressive Web Apps), Service Workers, Time, and Glitch</itunes:subtitle>
+        <itunes:summary>Mikeal Rogers, Alex Sexton, and Rachel White discuss PWAs (Progressive Web Apps), Service Workers, and Time in JavaScript. Jenn Schiffer also joined the show to talk about Glitch, our project of the week. </itunes:summary>
+      </item>
+      <item>
+        <title>3: JavaScript Fatigue, AMP, and Paths.js</title>
+        <link>https://changelog.com/jsparty/3</link>
+        <guid isPermaLink="false">changelog.com/6/370</guid>
+        <pubDate>Fri, 17 Mar 2017 15:00:00 +0000</pubDate>
+        <dc:creator>Mikeal Rogers, Rachel White, and Alex Sexton</dc:creator>
+        <description><![CDATA[<p>Mikeal Rogers, Alex Sexton, and Rachel White discuss JavaScript Fatigue, Accelerated Mobile Pages (AMP), and the project of the week Paths.js</p>
+
+  <p>Sponsors</p>
+  <ul>
+    <li>
+      <a href="https://rollbar.com/changelog">Rollbar</a> – 
+Put errors in their place! <code>npm install --save rollbar</code> for error tracking in your Node.js apps.
+    </li>
+    <li>
+      <a href="https://toptal.com/javascript?utm_source=changelog&amp;utm_medium=podcast&amp;utm_campaign=changelog-sponsorship">Toptal</a> – 
+Scale your team and hire from the top 3% of developers and designers with Toptal. Email <code>adam@changelog.com</code> for a personal introduction.
+    </li>
+  </ul>
+
+  <p>Featuring</p>
+  <ul>
+    <li>Mikeal Rogers &ndash; <a href="https://twitter.com/mikeal">Twitter</a>, <a href="https://github.com/mikeal">GitHub</a></li>
+    <li>Rachel White &ndash; <a href="https://twitter.com/ohhoe">Twitter</a>, <a href="https://github.com/rachelnicole">GitHub</a></li>
+    <li>Alex Sexton &ndash; <a href="https://twitter.com/SlexAxton">Twitter</a>, <a href="https://github.com/SlexAxton">GitHub</a>, <a href="https://alexsexton.com">Website</a></li>
+  </ul>
+<p>Notes and Links</p>
+<p><a href="https://changelog.com/community">Join the community</a> to Slack with us about this show and the topics we cover. You can also suggest topics and guest panelist at <a href="https://github.com/thechangelog/jsparty">our GitHub repo</a>. Follow us on Twitter ~&gt; <a href="https://twitter.com/jspartyfm">we're @JSPartyFM</a></p>
+<hr />
+<h3>JS Fatigue</h3>
+<ul>
+<li><a href="http://thefullstack.xyz/javascript-fatigue/">What is JavaScript Fatigue</a></li>
+<li><a href="https://segment.com/blog/the-deep-roots-of-js-fatigue/">The deep roots of JavaScript Fatigue</a></li>
+<li><a href="https://www.reddit.com/r/node/comments/5t2hc8/stepbystep_tutorial_to_build_a_modern_javascript/ddkk1v7/">@substack thinks you're overcomplicating it</a></li>
+<li><a href="https://medium.freecodecamp.com/a-study-plan-to-cure-javascript-fatigue-8ad3a54f2eb1#.7fdd72qa5">Is &quot;Start with React&quot; a viable solution?</a></li>
+<li><a href="https://hackernoon.com/tools-for-radicals-73b7cbbfc276#.m1067mtie">Tools for Radicals by Justin Falcone</a></li>
+</ul>
+<h3>AMP</h3>
+<ul>
+<li><a href="https://www.ampproject.org/learn/overview/">Overview</a></li>
+<li><a href="https://www.wsj.com/articles/googles-accelerated-mobile-pages-promises-faster-loads-1444229638">AMP Promises faster load times</a></li>
+<li><a href="https://80x24.net/post/the-problem-with-amp/">The problem with AMP</a></li>
+<li><a href="https://timkadlec.com/2017/03/amp-and-the-web/">Criticism: AMP and the Web</a></li>
+<li><a href="https://www.appticles.com/blog/2016/07/debating-the-pros-and-cons-of-google-accelerated-mobile-pages-amp/">Pros and Cons</a></li>
+<li><a href="http://www.businessinsider.com/a-bug-in-googles-amp-pages-is-inflating-traffic-metrics-2017-3">Bug in AMP inflates traffic metrics</a></li>
+<li><a href="https://lifehacker.com/how-to-get-past-a-google-amp-page-to-the-normal-version-1793085123">How to get past AMP to a regular site</a></li>
+</ul>
+<h3>Project of the Week</h3>
+<ul>
+<li><a href="https://github.com/andreaferretti/paths-js">Paths.js</a></li>
+</ul>
+<h3>Picks</h3>
+<ul>
+<li>Rachel: <a href="https://github.com/galaxykate/tracery">tracery</a></li>
+<li>Mikeal: <a href="https://github.com/nayafia/lemonade-stand">Lemonade Stand</a></li>
+<li>Alex: <a href="https://github.com/andyearnshaw/Intl.js/">Intl.js</a></li>
+</ul>
+]]></description>
+
+        <enclosure url="https://cdn.changelog.com/uploads/jsparty/3/js-party-3.mp3" length="56070839" type="audio/mpeg" />
+        <itunes:author>Mikeal Rogers, Rachel White, and Alex Sexton</itunes:author>
+        <itunes:image href="https://cdn.changelog.com/uploads/covers/js-party-original.png?v=63688781367"/>
+        <itunes:duration>58:08</itunes:duration>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:keywords>javascript, html, web, programming, frontend, backend, node, changelog, css, animation, iot, robotics</itunes:keywords>
+        <itunes:subtitle>JavaScript Fatigue, AMP, and Paths.js</itunes:subtitle>
+        <itunes:summary>Mikeal Rogers, Alex Sexton, and Rachel White discuss JavaScript Fatigue, Accelerated Mobile Pages (AMP), and the project of the week Paths.js </itunes:summary>
+      </item>
+      <item>
+        <title>2: Web Assembly, Higher Education with JavaScript, and JS Standards</title>
+        <link>https://changelog.com/jsparty/2</link>
+        <guid isPermaLink="false">changelog.com/6/369</guid>
+        <pubDate>Fri, 10 Mar 2017 20:00:00 +0000</pubDate>
+        <dc:creator>Mikeal Rogers, Rachel White, and Alex Sexton</dc:creator>
+        <description><![CDATA[<p>Mikeal Rogers, Alex Sexton, and Rachel White discuss all the details around Web Assembly, and the effects of higher education and JavaScript, and JS Standards.</p>
+
+  <p>Sponsors</p>
+  <ul>
+    <li>
+      <a href="https://rollbar.com/changelog">Rollbar</a> – 
+Put errors in their place! <code>npm install --save rollbar</code> for error tracking in your Node.js apps.
+    </li>
+    <li>
+      <a href="https://toptal.com/javascript?utm_source=changelog&amp;utm_medium=podcast&amp;utm_campaign=changelog-sponsorship">Toptal</a> – 
+Scale your team and hire from the top 3% of developers and designers with Toptal. Email <code>adam@changelog.com</code> for a personal introduction.
+    </li>
+  </ul>
+
+  <p>Featuring</p>
+  <ul>
+    <li>Mikeal Rogers &ndash; <a href="https://twitter.com/mikeal">Twitter</a>, <a href="https://github.com/mikeal">GitHub</a></li>
+    <li>Rachel White &ndash; <a href="https://twitter.com/ohhoe">Twitter</a>, <a href="https://github.com/rachelnicole">GitHub</a></li>
+    <li>Alex Sexton &ndash; <a href="https://twitter.com/SlexAxton">Twitter</a>, <a href="https://github.com/SlexAxton">GitHub</a>, <a href="https://alexsexton.com">Website</a></li>
+  </ul>
+<p>Notes and Links</p>
+<p>The topics covered in today's show:</p>
+<ul>
+<li>Web Assembly and higher education with JavaScript, and JS Standards</li>
+<li>Project(s) of the Week: Lesser known JS standards — <a href="https://github.com/maxogden/abstract-blob-store">Abstract Blob Store</a>, <a href="https://github.com/mafintosh/abstract-chunk-store">Abstract Chunk Store</a></li>
+</ul>
+<hr />
+<ul>
+<li><a href="https://lists.w3.org/Archives/Public/public-webassembly/2017Feb/0002.html">Web Assembly is ready.</a></li>
+<li>What kind of impact will it have on the ecosystem?</li>
+<li><a href="http://www.infoworld.com/article/3175024/web-development/brendan-eich-tech-giants-could-botch-webassembly.html">Brendan is worried vendors will mess this up</a></li>
+<li><a href="https://hacks.mozilla.org/2017/02/a-cartoon-intro-to-webassembly/">Cartoon intro to Web Assembly</a></li>
+<li><a href="http://thecodebarbarian.com/getting-started-with-webassembly-in-node.js.html?utm_source=nodeweekly&amp;utm_medium=email">Getting Started with Web Assembly in Node.js</a></li>
+<li><a href="http://www.stanforddaily.com/2017/02/28/cs-department-updates-introductory-courses/">Stanford is Migrating from Java to JavaScript</a></li>
+</ul>
+<h3>Project(s) of the Week</h3>
+<ul>
+<li>Lesser Known JS Standards</li>
+<li><a href="https://github.com/maxogden/abstract-blob-store">Abstract Blob Store</a></li>
+<li><a href="https://github.com/mafintosh/abstract-chunk-store">Abstract Chunk Store</a></li>
+</ul>
+<h3>Picks</h3>
+<ul>
+<li>Mikeal: <a href="http://offlinefirst.org/camp/">Offline Camp</a>, <a href="http://2017.jsconf.eu/">JSConf EU</a>, <a href="https://csvconf.com/">csv,conf</a>, and <a href="https://openvisconf.com/">OpenVis Conf</a></li>
+<li>Alex: <a href="https://github.com/flowtype/flow-typed">flow-typed</a></li>
+<li>Rachel: <a href="http://www.datasketch.es/">Data Sketches</a></li>
+</ul>
+<p><a href="http://www.datasketch.es/december/code/nadieh/"><img src="https://changelog-assets.s3.amazonaws.com/sketches-december-nadieh.png" alt="december-nadieh.png" /></a></p>
+]]></description>
+
+        <enclosure url="https://cdn.changelog.com/uploads/jsparty/2/js-party-2.mp3" length="53584712" type="audio/mpeg" />
+        <itunes:author>Mikeal Rogers, Rachel White, and Alex Sexton</itunes:author>
+        <itunes:image href="https://cdn.changelog.com/uploads/covers/js-party-original.png?v=63688781367"/>
+        <itunes:duration>55:32</itunes:duration>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:keywords>javascript, html, web, programming, frontend, backend, node, changelog, css, animation, iot, robotics</itunes:keywords>
+        <itunes:subtitle>Web Assembly, Higher Education with JavaScript, and JS Standards</itunes:subtitle>
+        <itunes:summary>Mikeal Rogers, Alex Sexton, and Rachel White discuss all the details around Web Assembly, and the effects of higher education and JavaScript, and JS Standards. </itunes:summary>
+      </item>
+      <item>
+        <title>1: Security on the Web, Node async/await, and AR.js</title>
+        <link>https://changelog.com/jsparty/1</link>
+        <guid isPermaLink="false">changelog.com/6/368</guid>
+        <pubDate>Fri, 03 Mar 2017 15:00:00 +0000</pubDate>
+        <dc:creator>Mikeal Rogers, Rachel White, and Alex Sexton</dc:creator>
+        <description><![CDATA[<p>In this first episode of JS Party, Mikeal Rogers, Alex Sexton, and Rachel White discuss security on the web and how SHA-1 is broken, Node.js v7.6 and async/await, and this week's featured project AR.js.</p>
+
+  <p>Sponsors</p>
+  <ul>
+    <li>
+      <a href="https://rollbar.com/changelog">Rollbar</a> – 
+Put errors in their place! <code>npm install --save rollbar</code> for error tracking in your Node.js apps.
+    </li>
+    <li>
+      <a href="https://toptal.com/javascript?utm_source=changelog&amp;utm_medium=podcast&amp;utm_campaign=changelog-sponsorship">Toptal</a> – 
+Scale your team and hire from the top 3% of developers and designers with Toptal. Email <code>adam@changelog.com</code> for a personal introduction.
+    </li>
+  </ul>
+
+  <p>Featuring</p>
+  <ul>
+    <li>Mikeal Rogers &ndash; <a href="https://twitter.com/mikeal">Twitter</a>, <a href="https://github.com/mikeal">GitHub</a></li>
+    <li>Rachel White &ndash; <a href="https://twitter.com/ohhoe">Twitter</a>, <a href="https://github.com/rachelnicole">GitHub</a></li>
+    <li>Alex Sexton &ndash; <a href="https://twitter.com/SlexAxton">Twitter</a>, <a href="https://github.com/SlexAxton">GitHub</a>, <a href="https://alexsexton.com">Website</a></li>
+  </ul>
+<p>Notes and Links</p>
+<p>The topics covered in today's show:</p>
+<ul>
+<li>Security on the web</li>
+<li>SHA-1 is broken</li>
+<li>Node.js v7.6 gets async/await</li>
+</ul>
+<p>Featured Project — <a href="https://github.com/jeromeetienne/AR.js">AR.js</a>.</p>
+<hr />
+<ul>
+<li><a href="http://www.pcworld.com/article/3173791/security/stop-using-sha1-it-s-now-completely-unsafe.html">Stop using SHA-1</a></li>
+<li><a href="https://arstechnica.com/security/2017/02/at-deaths-door-for-years-widely-used-sha1-function-is-now-dead/">The effects of SHA-1 on Git</a></li>
+<li><a href="https://github.com/multiformats/multiformats">Multiformats</a></li>
+<li><a href="https://github.com/multiformats/multihash">Multihash</a> and <a href="https://github.com/multiformats/js-multihash">JS Multihash</a></li>
+<li><a href="https://observatory.mozilla.org/">Observatory by Mozilla</a> - a project designed to help developers, system administrators, and security professionals configure their sites safely and securely</li>
+<li><a href="https://www.pcisecuritystandards.org/">The PCI Security Standards Council</a> - a global forum for the ongoing development, enhancement, storage, dissemination and implementation of security standards for account data protection.</li>
+<li><a href="https://codeforgeek.com/2017/02/asyncawait-function-officially-shipped-nodejs-7-6-0/">Node.js v7.6 gets async/await</a></li>
+<li><a href="https://blog.risingstack.com/async-await-node-js-7-nightly/">Experimenting with async/await</a></li>
+<li><a href="https://www.npmjs.com/package/co">co</a> - Generator based control flow goodness for nodejs and the browser, using promises, letting you write non-blocking code in a nice-ish way.</li>
+<li><a href="https://github.com/jeromeetienne/AR.js">AR.js</a></li>
+</ul>
+<hr />
+<h3>Picks from the panel</h3>
+<p>Mikeal:</p>
+<ul>
+<li><a href="https://github.com/substack/regl">regl</a> - Declarative stateless rendering for WebG</li>
+<li><a href="https://bits.coop/">bits.coop</a></li>
+</ul>
+<p>Alex:</p>
+<ul>
+<li><a href="https://observatory.mozilla.org/">Observatory by Mozilla</a></li>
+</ul>
+<p>Rachel:</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=-6REd8lLsPM">How Computers Read Pixels (Drawing on Canvas) — Mariko Kosaka</a></li>
+</ul>
+]]></description>
+
+        <enclosure url="https://cdn.changelog.com/uploads/jsparty/1/js-party-1.mp3" length="54772729" type="audio/mpeg" />
+        <itunes:author>Mikeal Rogers, Rachel White, and Alex Sexton</itunes:author>
+        <itunes:image href="https://cdn.changelog.com/uploads/covers/js-party-original.png?v=63688781367"/>
+        <itunes:duration>56:47</itunes:duration>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:keywords>javascript, html, web, programming, frontend, backend, node, changelog, css, animation, iot, robotics</itunes:keywords>
+        <itunes:subtitle>Security on the Web, Node async/await, and AR.js</itunes:subtitle>
+        <itunes:summary>In this first episode of JS Party, Mikeal Rogers, Alex Sexton, and Rachel White discuss security on the web and how SHA-1 is broken, Node.js v7.6 and async/await, and this week's featured project AR.js. </itunes:summary>
+      </item>
+      <item>
+        <title>Meet Rachel White</title>
+        <link>https://changelog.com/jsparty/meet-rachel-white</link>
+        <guid isPermaLink="false">changelog.com/6/362</guid>
+        <pubDate>Fri, 24 Feb 2017 15:00:00 +0000</pubDate>
+        <dc:creator>Adam Stacoviak and Jerod Santo</dc:creator>
+        <description><![CDATA[<p>In this show we meet Rachel White, front-end engineer, Tech Evangelist on the DX team at Microsoft, and panelist on this show — JS Party. Rachel shares her fun attitude, her backstory, topics she's excited to discuss, and who she hopes listens to this show.</p>
+
+
+  <p>Featuring</p>
+  <ul>
+    <li>Rachel White &ndash; <a href="https://twitter.com/ohhoe">Twitter</a>, <a href="https://github.com/rachelnicole">GitHub</a></li>
+    <li>Adam Stacoviak &ndash; <a href="https://twitter.com/adamstac">Twitter</a>, <a href="https://github.com/adamstac">GitHub</a>, <a href="http://adamstacoviak.com/">Website</a></li>
+    <li>Jerod Santo &ndash; <a href="https://twitter.com/jerodsanto">Twitter</a>, <a href="https://github.com/jerodsanto">GitHub</a>, <a href="http://jerodsanto.net">Website</a></li>
+  </ul>
+<p>Notes and Links</p>
+<ul>
+<li><a href="https://changelog.com/spotlight/11">Spotlight #11: Node, IoT, and RoboticS with Rachel White at Node.js Interactive 2016</a></li>
+<li><a href="https://github.com/rachelnicole/robokitty">robokitty</a></li>
+<li><a href="https://www.buzzfeed.com/ryanhatesthis/look-how-kawaii-i-am">BuzzFeed: Everything You Need To Know About Japan’s Amazing Photo Booths</a></li>
+<li><a href="http://wesbos.com/">Web Bos</a> and his courses — <a href="https://reactforbeginners.com/">React for Beginners</a> and <a href="https://javascript30.com/">JavaScript 30</a></li>
+</ul>
+]]></description>
+
+        <enclosure url="https://cdn.changelog.com/uploads/jsparty/meet-rachel-white/js-party-meet-rachel-white.mp3" length="28328643" type="audio/mpeg" />
+        <itunes:author>Adam Stacoviak and Jerod Santo</itunes:author>
+        <itunes:image href="https://cdn.changelog.com/uploads/covers/js-party-original.png?v=63688781367"/>
+        <itunes:duration>29:10</itunes:duration>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:keywords>javascript, html, web, programming, frontend, backend, node, changelog, css, animation, iot, robotics</itunes:keywords>
+        <itunes:subtitle>Meet Rachel White</itunes:subtitle>
+        <itunes:summary>In this show we meet Rachel White, front-end engineer, Tech Evangelist on the DX team at Microsoft, and panelist on this show — JS Party. Rachel shares her fun attitude, her backstory, topics she's excited to discuss, and who she hopes listens to this show. </itunes:summary>
+      </item>
+      <item>
+        <title>Meet Alex Sexton</title>
+        <link>https://changelog.com/jsparty/meet-alex-sexton</link>
+        <guid isPermaLink="false">changelog.com/6/367</guid>
+        <pubDate>Fri, 24 Feb 2017 14:30:00 +0000</pubDate>
+        <dc:creator>Adam Stacoviak and Jerod Santo</dc:creator>
+        <description><![CDATA[<p>In this show we meet Alex Sexton, a front-end infrastructure engineer at  Stripe, Modernizr core team member, and panelist on this show — JS Party. Alex shares his backstory, where he's coming from, topics he's excited to discuss, and more.</p>
+
+
+  <p>Featuring</p>
+  <ul>
+    <li>Alex Sexton &ndash; <a href="https://twitter.com/SlexAxton">Twitter</a>, <a href="https://github.com/SlexAxton">GitHub</a>, <a href="https://alexsexton.com">Website</a></li>
+    <li>Adam Stacoviak &ndash; <a href="https://twitter.com/adamstac">Twitter</a>, <a href="https://github.com/adamstac">GitHub</a>, <a href="http://adamstacoviak.com/">Website</a></li>
+    <li>Jerod Santo &ndash; <a href="https://twitter.com/jerodsanto">Twitter</a>, <a href="https://github.com/jerodsanto">GitHub</a>, <a href="http://jerodsanto.net">Website</a></li>
+  </ul>
+<p>Notes and Links</p>
+<ul>
+<li><a href="http://yayquery.com/">yayQuery</a></li>
+<li><a href="https://jquery.org/">jQuery Foundation</a></li>
+<li><a href="https://js.foundation/">JS Foundation</a></li>
+<li><a href="https://modernizr.com/">Modernizr</a></li>
+<li><a href="http://yepnopejs.com/">YepNopeJS</a></li>
+</ul>
+]]></description>
+
+        <enclosure url="https://cdn.changelog.com/uploads/jsparty/meet-alex-sexton/js-party-meet-alex-sexton.mp3" length="37495193" type="audio/mpeg" />
+        <itunes:author>Adam Stacoviak and Jerod Santo</itunes:author>
+        <itunes:image href="https://cdn.changelog.com/uploads/covers/js-party-original.png?v=63688781367"/>
+        <itunes:duration>37:46</itunes:duration>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:keywords>javascript, html, web, programming, frontend, backend, node, changelog, css, animation, iot, robotics</itunes:keywords>
+        <itunes:subtitle>Meet Alex Sexton</itunes:subtitle>
+        <itunes:summary>In this show we meet Alex Sexton, a front-end infrastructure engineer at  Stripe, Modernizr core team member, and panelist on this show — JS Party. Alex shares his backstory, where he's coming from, topics he's excited to discuss, and more. </itunes:summary>
+      </item>
+      <item>
+        <title>Meet Mikeal Rogers</title>
+        <link>https://changelog.com/jsparty/meet-mikeal-rogers</link>
+        <guid isPermaLink="false">changelog.com/6/366</guid>
+        <pubDate>Fri, 24 Feb 2017 14:00:00 +0000</pubDate>
+        <dc:creator>Adam Stacoviak and Jerod Santo</dc:creator>
+        <description><![CDATA[<p>In this show we meet Mikeal Rogers, Community Manager for The Node.js Foundation, host of Request For Commits, and panelist on this show — JS Party. Mikeal shares his backstory, where he's coming from, topics he's excited to discuss, and how you (the listener) can get involved and play a role in this show each week as we celebrate JS and the web platform.</p>
+
+
+  <p>Featuring</p>
+  <ul>
+    <li>Mikeal Rogers &ndash; <a href="https://twitter.com/mikeal">Twitter</a>, <a href="https://github.com/mikeal">GitHub</a></li>
+    <li>Adam Stacoviak &ndash; <a href="https://twitter.com/adamstac">Twitter</a>, <a href="https://github.com/adamstac">GitHub</a>, <a href="http://adamstacoviak.com/">Website</a></li>
+    <li>Jerod Santo &ndash; <a href="https://twitter.com/jerodsanto">Twitter</a>, <a href="https://github.com/jerodsanto">GitHub</a>, <a href="http://jerodsanto.net">Website</a></li>
+  </ul>
+<p>Notes and Links</p>
+<ul>
+<li><a href="https://changelog.com/podcast/139">The Changelog #139: The Rise of io.js with Mikeal Rogers</a></li>
+<li><a href="https://changelog.com/podcast/155">The Changelog #155: The Future of Node.js with Scott Hammond</a></li>
+</ul>
+]]></description>
+
+        <enclosure url="https://cdn.changelog.com/uploads/jsparty/meet-mikeal-rogers/js-party-meet-mikeal-rogers.mp3" length="37587769" type="audio/mpeg" />
+        <itunes:author>Adam Stacoviak and Jerod Santo</itunes:author>
+        <itunes:image href="https://cdn.changelog.com/uploads/covers/js-party-original.png?v=63688781367"/>
+        <itunes:duration>37:51</itunes:duration>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:keywords>javascript, html, web, programming, frontend, backend, node, changelog, css, animation, iot, robotics</itunes:keywords>
+        <itunes:subtitle>Meet Mikeal Rogers</itunes:subtitle>
+        <itunes:summary>In this show we meet Mikeal Rogers, Community Manager for The Node.js Foundation, host of Request For Commits, and panelist on this show — JS Party. Mikeal shares his backstory, where he's coming from, topics he's excited to discuss, and how you (the listener) can get involved and play a role in this show each week as we celebrate JS and the web platform. </itunes:summary>
+      </item>
+  </channel>
+</rss>

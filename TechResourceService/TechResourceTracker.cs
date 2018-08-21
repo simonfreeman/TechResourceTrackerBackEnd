@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Podly.FeedParser;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,16 +11,31 @@ using System.Threading.Tasks;
 
 namespace TechResourceService
 {
-    partial class TechResourceTracker : ServiceBase
+    partial class TechResourceTracker : ServiceBase, ITechResourceTracker
     {
         private int eventId = 1;
-        private string testFeed = "http://www.pwop.com/feed.aspx?show=dotnetrocks&filetype=master";
-        //private RssFeedReader rssFeedReader = new RssFeedReader();
         public int TimerInterval { get; set; } = 6000;
 
         public TechResourceTracker()
         {
-            InitializeComponent();
+            CreateEventLog();
+        }
+
+        private List<string> FeedList
+        {
+            get
+            {
+                var feedUrls = new List<string>
+                {
+                    "http://www.pwop.com/feed.aspx?show=dotnetrocks&filetype=master"
+                };
+
+                return feedUrls;
+            }
+        }
+
+        private void CreateEventLog()
+        {
             eventLog1 = new System.Diagnostics.EventLog();
             if (!System.Diagnostics.EventLog.SourceExists("MySource"))
             {
@@ -49,8 +65,11 @@ namespace TechResourceService
         public void InitiateTimer()
         {
             eventLog1.WriteEntry("Start tracking of tech resources");
-            var timer = new System.Timers.Timer();
-            timer.Interval = TimerInterval; // 60 seconds  
+      
+            var timer = new System.Timers.Timer
+            {
+                Interval = TimerInterval // 60 seconds  
+            };
             timer.Elapsed += new System.Timers.ElapsedEventHandler(this.OnTimer);
             timer.Start();
         }
@@ -58,6 +77,17 @@ namespace TechResourceService
         public void TimerActivities()
         {
             eventLog1.WriteEntry("Tracking resources", EventLogEntryType.Information, eventId++);
+           
+
+            var feedFactory = new HttpFeedFactory();
+            foreach (string feedUrl in FeedList)
+            {
+                var feed = feedFactory.CreateFeed(new Uri(feedUrl));
+            }
+
+            
+            
+
         }
     }
 }
